@@ -94,5 +94,21 @@ i.fa-plus{
 }
 
 .menu_item{
-    float: right;
+    margin-top: 45px;
+    float: left;   
+}
+
+.item_update{
+    font-family: 'Open Sans';
+    color: #000000;
+    font-weight: 200;
+}
+
+
+.item_user{
+    margin-right: 214px;
+}
+
+.item_compare{
+    margin-right: 40px;
 }
