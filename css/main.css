@@ -145,5 +145,20 @@ i.fa-plus{
 .menu_item{
     margin-top: 64px;
     float: left;
+}
 
+.slider_item_image{
+    position: relative;
+    top: -100px;
+    left: 60px;
+}
+
+.slider_first_number{
+    border: 1px solid #fff;
+    width: 98px;
+}
+
+.number{
+    font-size: 180px;
+    color: #fff;
 }
