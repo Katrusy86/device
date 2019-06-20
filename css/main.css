@@ -85,7 +85,7 @@ ul, li {
 }
 
 .catalog_list{
-    padding-top: 51px;
+    margin-top: 51px;
     padding-left: 60px;
 }
 .catalog_name{
@@ -102,22 +102,48 @@ i.fa-plus{
     
 }
 
-.menu_item{
+.user_navigation{
     margin-top: 45px;
+}
+.user_links{
     float: left;   
 }
 
-.item_update{
+.link_update{
     font-family: 'Open Sans';
     color: #000000;
     font-weight: 200;
 }
 
 
-.item_user{
+.login_link{
     margin-right: 214px;
 }
 
-.item_compare{
+
+.compare_link{
     margin-right: 40px;
+}
+
+.item_update{
+ font-size: 18px;
+ font-weight: bolder;
+ color:#000;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+}
+
+
+.delivery_item{
+    margin-right: 40px;
+}
+
+.contacts_item{
+    margin-left: 120px;
+}
+
+.menu_item{
+    margin-top: 64px;
+    float: left;
+
 }
