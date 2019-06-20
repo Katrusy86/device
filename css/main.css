@@ -1,0 +1,98 @@
+
+/*Спецификация*/
+/*General page*/
+html{
+	font-size: 15px;
+}
+
+
+body{
+	font-family: 'Gilroy', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+	
+}
+
+
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus,
+input:focus, input:active {
+	text-decoration: none;
+	outline: none;
+}
+
+
+div,p,a,form,ul,li,button,input,span{
+    box-sizing: border-box;
+}
+
+ul, li {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Шапка */
+
+ .main_overlay{
+    width:1160px;
+    height: 301px;
+    background:rgba(240,197,46,0.5);
+    margin-top: -35px;
+    
+}
+
+.header_logo_name{
+    margin-top: 25px;
+    margin-left: 60px;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;   
+}
+
+.main_search{
+    padding-top: 45px;
+    padding-left: 60px;
+}
+
+.main_search_name{
+    font-family: "Open Sans", serif;
+    font-weight: lighter;
+    float: right;
+    margin-left: 15px;
+    opacity: 0.3;
+
+}
+
+.catalog_list{
+    padding-top: 51px;
+    padding-left: 60px;
+}
+.catalog_name{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+i.fa-plus{
+    opacity: 0.5;
+    font-size: 15px;
+    
+}
+
+.menu_navigation{
+ 
+}
+
+.menu_item{
+    float: right;
+}
