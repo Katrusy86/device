@@ -58,6 +58,18 @@ ul, li {
     color: #000;   
 }
 
+ a:hover{
+    opacity: 0.6;
+    color: #000;
+
+}
+
+ a:active{
+    opacity: 0.3;
+    color: #000;
+}
+
+
 .main_search{
     padding-top: 45px;
     padding-left: 60px;
@@ -81,16 +93,13 @@ ul, li {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    color: #000;
 }
 
 i.fa-plus{
     opacity: 0.5;
     font-size: 15px;
     
-}
-
-.menu_navigation{
- 
 }
 
 .menu_item{
