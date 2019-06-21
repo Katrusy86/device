@@ -147,6 +147,8 @@ i.fa-plus{
     float: left;
 }
 
+/* Слайды */
+
 .slider_image{
     position: relative;
     top: -100px;
