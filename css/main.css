@@ -147,18 +147,67 @@ i.fa-plus{
     float: left;
 }
 
-.slider_item_image{
+.slider_image{
     position: relative;
     top: -100px;
     left: 60px;
 }
 
-.slider_first_number{
+.slider_line{
+    position: relative;
     border: 1px solid #fff;
-    width: 98px;
+    background: #fff;
+    width: 99px;
+    height: 8px;
+    top: -70px;
+    left: 20px;
 }
 
-.number{
+.slider_number{
     font-size: 180px;
     color: #fff;
+    font-weight: bold;
+    position: absolute;
+    left: 315px;
+    top: -100px;
+
 }
+ .slider_title{
+     font-size: 47px;
+     font-weight: bold;
+     width: 392px;
+     margin-top: 39px;
+     
+ }
+.slider_text{
+    font-weight: lighter;
+    width: 495px;
+    line-height: 2em;
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+}
+
+
+
+.slider_button_act{
+    border: 1px solid #f0c52e;
+    width: 218px;
+    height: 8px;
+    position: absolute;
+	text-align: center;
+    background: #f0c52e;
+	cursor: pointer;
+}
+
+.slider_button_title{
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    padding: 0px 42px 0px 42px;
+    color: #000;
+    letter-spacing: 0.15em;
+}
+
