@@ -110,7 +110,7 @@ i.fa-plus{
 }
 
 .link_update{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     color: #000000;
     font-weight: 200;
 }
@@ -193,7 +193,7 @@ i.fa-plus{
 
 
 
-.slider_button{
+.slider_button_item{
     border: 1px solid #f0c52e;
     width: 218px;
     height: 8px;
@@ -210,15 +210,62 @@ i.fa-plus{
     letter-spacing: 0.15em;
     color: #000;
     position: relative;
-    top: -12px;
-    left: 5px;
+    top: -10px;
+    left: 2px;
+   
 }
 
-.slider_button:hover{
-    padding: 18px 42px 18px 42px;
+.slider_button_item:hover{
+    padding: 18px 42px 20px 42px;
 
 }
 
-.slider_button:active{   
+.slider_button_item:active{   
     opacity:0.3;
 }
+
+.slider_button{
+    margin-bottom: 124px;
+}
+
+
+.slider_table{
+ width: 457px;
+}
+
+.slider_table_column{
+ font-size: 36px;
+ font-weight: 100;
+ letter-spacing: 0.1em;
+}
+
+.slider_table_cell{
+    font-size: 13px;
+    font-family: 'Open Sans',sans-serif; 
+
+}
+
+/* Slick-Dots */
+/* .slick-dotted.slick-slider {
+    margin-left: 150px; 
+} 
+
+
+.slick-dots li button {
+    width: 10px;
+	height: 10px;
+	border:1px solid #000;
+	border-radius: 50%;
+	display: inline-flex;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.slick-dots li button:before{
+content: '';
+}
+
+.slick-dots li button:hover,
+.slick-dots li.slick-active button{
+background: #000;
+}  */
