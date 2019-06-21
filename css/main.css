@@ -169,7 +169,7 @@ i.fa-plus{
     font-weight: bold;
     position: absolute;
     left: 315px;
-    top: -100px;
+    top: -92px;
 
 }
  .slider_title{
@@ -186,28 +186,37 @@ i.fa-plus{
     margin-top: 35px;
     margin-left: 10px;
     margin-bottom: 60px;
+  
 }
 
 
 
-.slider_button_act{
+.slider_button{
     border: 1px solid #f0c52e;
     width: 218px;
     height: 8px;
-    position: absolute;
 	text-align: center;
     background: #f0c52e;
-	cursor: pointer;
+    cursor: pointer;
+    position: absolute;
 }
 
-.slider_button_title{
+.act{
     text-transform: uppercase;
     font-size: 18px;
-    position: relative;
-    bottom: 10px;
-    font-weight: bold;
-    padding: 0px 42px 0px 42px;
-    color: #000;
+    font-weight: bold; 
     letter-spacing: 0.15em;
+    color: #000;
+    position: relative;
+    top: -12px;
+    left: 5px;
 }
 
+.slider_button:hover{
+    padding: 18px 42px 18px 42px;
+
+}
+
+.slider_button:active{   
+    opacity:0.3;
+}
