@@ -211,17 +211,20 @@ i.fa-plus{
     color: #000;
     position: relative;
     top: -10px;
-    left: 2px;
+    
    
 }
 
-.slider_button_item:hover{
-    padding: 18px 42px 20px 42px;
-
+.slider_button_item:hover{ 
+    height: 40px;
+    padding: 14px 42px 14px 42px
+ 
 }
 
-.slider_button_item:active{   
+.slider_button_item:active{
+   
     opacity:0.3;
+   
 }
 
 .slider_button{
