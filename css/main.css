@@ -215,6 +215,8 @@ i.fa-plus{
    
 }
 
+
+
 .slider_button_item:hover{ 
     height: 40px;
     padding: 14px 42px 14px 42px
@@ -245,6 +247,7 @@ i.fa-plus{
 .slider_table_cell{
     font-size: 13px;
     font-family: 'Open Sans',sans-serif; 
+    
 
 }
 
@@ -272,3 +275,31 @@ content: '';
 .slick-dots li.slick-active button{
 background: #000;
 }  */
+
+
+
+.popular_item{
+    border: 1px solid #f7e296;
+    width: 160px;
+    height: 160px;
+    background: rgba(240,197,46,0.5);
+    margin-bottom: 41px;
+    
+}
+
+.popular{
+    margin-bottom: 181px;
+}
+
+.popular_image{
+    margin: 42px 33px; 
+
+}
+
+.popular_title{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+
