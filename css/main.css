@@ -193,9 +193,9 @@ i.fa-plus{
 
 
 
-.slider_button_item{
+.button_item{
     border: 1px solid #f0c52e;
-    width: 218px;
+    width: 186px;
     height: 8px;
 	text-align: center;
     background: #f0c52e;
@@ -217,13 +217,13 @@ i.fa-plus{
 
 
 
-.slider_button_item:hover{ 
+.button_item:hover{ 
     height: 40px;
     padding: 14px 42px 14px 42px
  
 }
 
-.slider_button_item:active{
+.button_item:active{
    
     opacity:0.3;
    
@@ -335,4 +335,29 @@ background: #000;
 
 .top_second{
     padding-top: 58px;
+}
+
+
+.services{
+    height: 287px;
+    background: #e5e5e5;
+    margin-bottom: 95px;
+}
+
+.service_titles{
+margin-top: -60px;
+}
+
+.service_button{
+    padding-top: 53px;
+}
+
+.service_layer{
+    height: 316px;
+    width: 8px;
+    border: 1px solid #000;
+    background: #000;
+    margin-left: 282px;
+    margin-top: -196px;
+
 }
