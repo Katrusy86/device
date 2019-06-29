@@ -354,7 +354,7 @@ i.fa-plus {
     margin-left: 45px;
 }
 
-.service_layer {
+.service_items {
     height: 316px;
     width: 8px;
     border: 1px solid #000;
@@ -363,5 +363,27 @@ i.fa-plus {
     margin-top: -196px;
 }
 
+.delivery {
+    float: left;
+    margin-left: 117px;
+    margin-top: -20px;
+}
 
+.delivery_title {
+    font-size: 47px;
+}
 
+.delivery_text {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    width: 433px;
+    line-height: 1.9em;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.delivery_image {
+    float: right;
+    margin-right: -267px;
+    margin-top: -165px;
+}
