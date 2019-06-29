@@ -1,17 +1,14 @@
-
-/*Спецификация*/
 /*General page*/
-html{
-	font-size: 15px;
+html {
+    font-size: 15px;
 }
 
 
-body{
+body {
 	font-family: 'Gilroy', sans-serif;
 	padding: 0px;
 	margin: 0px;
-	overflow-x: hidden;
-	
+	overflow-x: hidden;	
 }
 
 
@@ -23,7 +20,7 @@ input:focus, input:active {
 }
 
 
-div,p,a,form,ul,li,button,input,span{
+div,p,a,form,ul,li,button,input,span {
     box-sizing: border-box;
 }
 
@@ -33,62 +30,63 @@ ul, li {
 	margin: 0px;
 }
 
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
 }
 
 
-/* Шапка */
+/* Header */
 
- .main_overlay{
+ .main_overlay {
     width:1160px;
     height: 301px;
     background:#f7e296;
     margin-top: -35px;
-    
+   
 }
 
-.header_logo_name{
+.header_logo_name {
     margin-top: 25px;
     margin-left: 60px;
     font-size: 48px;
     text-transform: uppercase;
     font-weight: bold;
     color: #000;   
-}
+} 
 
- a:hover{
+ a:hover {
     opacity: 0.6;
     color: #000;
-
 }
 
- a:active{
+ a:active {
     opacity: 0.3;
     color: #000;
 }
 
 
-.main_search{
+.main_search {
     padding-top: 45px;
     padding-left: 60px;
 }
 
-.main_search_name{
-    font-family: "Open Sans", serif;
+.main_search_name {
+    font-family: "Open Sans";
     font-weight: lighter;
     float: right;
     margin-left: 15px;
     opacity: 0.3;
-
+    background: #f7e296;
+    border: #f7e296;
 }
 
-.catalog_list{
+.catalog_list {
     margin-top: 51px;
     padding-left: 60px;
 }
-.catalog_name{
+
+.catalog_name {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
@@ -96,278 +94,274 @@ ul, li {
     color: #000;
 }
 
-i.fa-plus{
+i.fa-plus {
     opacity: 0.5;
     font-size: 15px;
     
 }
 
-.user_navigation{
-    margin-top: 45px;
-}
-.user_links{
-    float: left;   
+.user_navigation {
+    margin-top: -253px;
+    margin-right: 139px;
+    float: right;
 }
 
-.link_update{
+
+.user_links {
+    float: left;
+   
+}
+.menu_navigation {
+    float: right;
+    margin-top: -247px;
+    margin-right: 131px;
+}
+
+.link_update {
     font-family: 'Open Sans',sans-serif;
     color: #000000;
     font-weight: 200;
 }
 
 
-.login_link{
+.login_link {
     margin-right: 214px;
 }
 
 
-.compare_link{
+.compare_link {
     margin-right: 40px;
 }
 
-.item_update{
- font-size: 18px;
- font-weight: bolder;
- color:#000;
- text-transform: uppercase;
- letter-spacing: 0.1em;
+
+.item_update {
+     font-size: 18px;
+    font-weight: bolder;
+    color:#000;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 
-.delivery_item{
+.delivery_item {
     margin-right: 40px;
 }
 
-.contacts_item{
+.contacts_item {
     margin-left: 120px;
 }
 
-.menu_item{
+.menu_item {
     margin-top: 64px;
     float: left;
 }
 
-/* Слайды */
+/* Slider */
 
-.slider_image{
+.slider_image {
     position: relative;
     top: -100px;
     left: 60px;
 }
 
-.slider_line{
+.slider_line {
     position: relative;
     border: 1px solid #fff;
     background: #fff;
     width: 99px;
     height: 8px;
-    top: -70px;
-    left: 20px;
+    top: -563px;
+    right: 516px;
+    float: right;
 }
 
-.slider_number{
+.slider_number {
     font-size: 180px;
     color: #fff;
     font-weight: bold;
     position: absolute;
     left: 315px;
-    top: -92px;
-
+    top: -79px;
 }
- .slider_title{
+
+ .slider_title {
      font-size: 47px;
      font-weight: bold;
      width: 392px;
-     margin-top: 39px;
-     
+     margin-top: 39px;    
  }
-.slider_text{
+
+.slider_text {
     font-weight: lighter;
     width: 495px;
     line-height: 2em;
-    margin-top: 35px;
-    margin-left: 10px;
-    margin-bottom: 60px;
-  
+    margin-top: -16px;
+    margin-left: 1px;
+      
 }
 
-
-
-.button_item{
-    border: 1px solid #f0c52e;
-    width: 186px;
-    height: 8px;
-	text-align: center;
-    background: #f0c52e;
-    cursor: pointer;
-    position: absolute;
-}
-
-.act{
+.button {
     text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bold; 
-    letter-spacing: 0.15em;
     color: #000;
     position: relative;
-    top: -10px;
-    
-   
-}
-
-
-
-.button_item:hover{ 
+    width: 186px;
+    margin-top:69px; 
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .button:before {
+    content: "";
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: #f0c52e;
+    transition: 250ms ease-in-out;
+  }
+  
+  .button:hover:before {
     height: 40px;
-    padding: 14px 42px 14px 42px
- 
+    margin-top: -20px;
+  }
+  
+  .text {
+    position: relative;
+    font-size: 18px;
+    font-weight: bold; 
+    margin-top: -5px;
+  }
+
+.button:hover { 
+    height: 40px;
+    padding: 14px 42px 14px 42px; 
 }
 
-.button_item:active{
-   
-    opacity:0.3;
-   
+.button:active {
+    opacity:0.3; 
 }
 
-.slider_button{
-    margin-bottom: 124px;
+.slider_button {
+    margin-bottom: 66px;
 }
 
 
-.slider_table{
- width: 457px;
+.slider_table {
+    width: 457px;
 }
 
-.slider_table_column{
- font-size: 36px;
- font-weight: 100;
- letter-spacing: 0.1em;
+.slider_table_column {
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
 }
 
-.slider_table_cell{
+.slider_table_cell {
     font-size: 13px;
     font-family: 'Open Sans',sans-serif; 
-    
-
 }
 
-/* Slick-Dots */
-/* .slick-dotted.slick-slider {
-    margin-left: 150px; 
-} 
+/* Popular */
 
-
-.slick-dots li button {
-    width: 10px;
-	height: 10px;
-	border:1px solid #000;
-	border-radius: 50%;
-	display: inline-flex;
-	margin-right: 5px;
-	cursor: pointer;
-}
-
-.slick-dots li button:before{
-content: '';
-}
-
-.slick-dots li button:hover,
-.slick-dots li.slick-active button{
-background: #000;
-}  */
-
-.popular{
-    margin-bottom: 181px;
+.popular {
+    margin-bottom: 400px;
     margin-left: 29px;
 }
 
-.popular_item{
+.popular_item {
     border: 1px solid #f7e296;
     width: 160px;
     height: 160px;
-    background:#f7e296;
     margin-bottom: 41px;
+    background: #f7e296;
+    float: left;
+    margin-left: 30px;
 }
 
-.popular_box:hover{
+.popular_item:nth-child(6) {
+    margin-top: -7px;
+}
+
+.popular_item:hover {
     cursor: pointer;
     background: #f0c52e;
-
 }
 
-.popular_item:active{
+.popular_item:active {
     opacity: 0.3;
 }
 
-
-.popular_image{
-    margin: 40px 0 0 33px; 
-
+.popular_image_01 {
+    margin: 50px 30px;
 }
 
-.left{
-    margin-left:52px;
+.popular_image_02 {
+    margin: 40px 40px;
 }
 
-.left_last{
-    margin-left: 13px;
+.popular_image_03 {
+    margin: 40px 50px;
 }
 
-.popular_title{
+.popular_image_05 {
+    margin: 30px 50px;
+}
+
+.popular_image_06 {
+    margin: 46px 13px;
+}
+
+.popular_title {
     font-size: 18px;
     font-weight: bold;
     line-height: 1.4em;
-    padding-top: 100px; 
-
+    margin-top: 40px;   
 }
 
- .top{
-    padding-top: 40px;
+.popular_title_02 {
+    margin-top: 0px;
 }
 
-.top_last{
-    padding-top: 70px;
+.popular_title_03 {
+    margin-top: 30px;
 }
 
-.top_first{
-    margin-top: -9px;
+.popular_title_04 {
+    margin-top: 31px;
 }
 
-.top_second{
-    padding-top: 58px;
+.popular_title_05 {
+    margin-top: 38px;
 }
 
+.popular_title_06 {
+    margin-top: 33px;
+}
 
-.services{
+/* Services */
+
+.services {
     height: 287px;
     background: #e5e5e5;
     margin-bottom: 95px;
 }
 
-.service_titles{
-margin-top: -60px;
+.service_button {
+    margin-top: -35px;
+    margin-left: 45px;
 }
 
-.service_button{
-    padding-top: 53px;
-}
-
-.service_layer{
+.service_layer {
     height: 316px;
     width: 8px;
     border: 1px solid #000;
     background: #000;
     margin-left: 280px;
     margin-top: -196px;
-
 }
 
-/* .button_item:hover{
-    width: 281px;
-    height: 40px;
-    border: 1px solid #000;
-    background: #000;
-   
-} */
 
 
