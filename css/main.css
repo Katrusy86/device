@@ -346,7 +346,7 @@ i.fa-plus {
 .services {
     height: 287px;
     background: #e5e5e5;
-    margin-bottom: 95px;
+    margin-bottom: 102px;
 }
 
 .service_button {
@@ -387,3 +387,67 @@ i.fa-plus {
     margin-right: -267px;
     margin-top: -165px;
 }
+
+.logotypes {
+    margin-top: 100px;
+}
+
+
+
+.logotype_image_01 {
+    background: url(../img/logo-1.png);
+    margin-left: 35px;
+    opacity: 0.2;
+    width: 260px;
+    height: 100px;
+    float: left;
+    
+}
+
+.logotype_image_01:hover {
+    background: url(../img/logo-1IE.png);
+    opacity: 1;
+}
+    
+.logotype_image_02 {
+    background: url(../img/logo-2.png);
+    margin-left: 35px;
+    opacity: 0.2;
+    width: 260px;
+    height: 100px;
+    float: left;
+}
+
+.logotype_image_02:hover {
+    background: url(../img/logo-2IE.png);
+    opacity: 1;
+}
+ 
+.logotype_image_03 {
+    background: url(../img/logo-3.png);
+    margin-left: 35px;
+    opacity: 0.2;
+    width: 260px;
+    height: 100px;
+    float: left;
+}
+
+.logotype_image_03:hover {
+    background: url(../img/logo-3IE.png);
+    opacity: 1;
+}
+    
+.logotype_image_04 {
+    background: url(../img/logo-4.png);
+    margin-left: 35px;
+    opacity: 0.2;
+    width: 260px;
+    height: 100px;
+    float: left;
+}
+
+.logotype_image_04:hover {
+    background: url(../img/logo-4IE.png);
+    opacity: 1;
+}
+    
