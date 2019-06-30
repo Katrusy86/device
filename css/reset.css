@@ -15,7 +15,7 @@ input:focus, input:active {
 }
 
 
-div,p,a,form,ul,li,button,input,span {
+*, *::before, *::after{
     box-sizing: border-box;
 }
 
