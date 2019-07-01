@@ -18,9 +18,3 @@ input:focus, input:active {
 *, *::before, *::after{
     box-sizing: border-box;
 }
-
-ul, li {
-	display: block;
-	padding: 0px;
-	margin: 0px;
-}

@@ -22,6 +22,10 @@ body {
     margin-top: -35px;
 }
 
+.main-navigation li {
+    display: block;
+}
+
 .header-logo-name {
     margin-top: 25px;
     margin-left: 60px;
@@ -202,6 +206,7 @@ i.fa-plus {
     font-size: 18px;
     font-weight: bold; 
     margin-top: -5px;
+    letter-spacing: 0.15em;
 }
 
 .button:active {
@@ -235,17 +240,19 @@ i.fa-plus {
 
 .popular {
     margin-bottom: 400px;
-    /* margin-left: 29px; */
 }
 
 .popular-font {
     border: 1px solid #f7e296;
     background: #f7e296;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .popular-item {
-    width: 160px;
-    height: 160px;
     float: left;
     padding-right: 15px;
     padding-left: 15px;
@@ -255,61 +262,22 @@ i.fa-plus {
     margin-top: -7px;
 }
 
-/* .popular-item:hover {
+.popular-font:hover {
     cursor: pointer;
     background: #f0c52e;
-} */
+}
 
 .popular-item:active {
     opacity: 0.3;
-}
-
-/* .popular-image-01 {
-    margin: 50px 30px;
-}
-
-.popular-image-02 {
-    margin: 40px;
-}
-
-.popular-image-03 {
-    margin: 40px 50px;
-}
-
-.popular-image-05 {
-    margin: 30px 50px;
-}
-
-.popular-image-06 {
-    margin: 46px 13px;
 }
 
 .popular-title {
     font-size: 18px;
     font-weight: bold;
     line-height: 1.4em;
-    margin-top: 40px;   
+    margin-top: 40px;
+    width: 160px;   
 }
-
-.popular-title-02 {
-    margin-top: 0px;
-}
-
-.popular-title-03 {
-    margin-top: 30px;
-}
-
-.popular-title-04 {
-    margin-top: 31px;
-}
-
-.popular-title-05 {
-    margin-top: 38px;
-}
-
-.popular-title-06 {
-    margin-top: 33px;
-} */
 
 /* Services */
 
@@ -317,6 +285,10 @@ i.fa-plus {
     height: 287px;
     background: #e5e5e5;
     margin-bottom: 102px;
+}
+
+.service-header li {
+    display: block;
 }
 
 .service-button {
@@ -416,7 +388,7 @@ i.fa-plus {
     
 .info {
     margin-top: 300px;
-    margin-left: 60px;
+    margin-bottom: 90px;
 }
 
 .info-line {
@@ -438,15 +410,16 @@ i.fa-plus {
     margin-bottom: 30px;
 }
 
+.info-items {
+    margin-bottom: 76px;
+}
+
 .info-slide-button {
     font-size: 16px;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 25px;   
 }
 
-.inffo {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    border:1px solid #b11515;
+.button-width {
+    width: 260px;
 }
