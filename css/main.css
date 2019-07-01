@@ -428,7 +428,7 @@ i.fa-plus {
 .contacts {
     float: right;
     margin-top: -515px;
-    margin-right: 100px;
+    margin-right: 33px;
 }
 
 .contact-text {
@@ -438,3 +438,26 @@ i.fa-plus {
 iframe {
     margin-bottom: -31px;
 }
+
+.footer {
+    background: #464646;
+    height: 324px;
+}
+
+.footer-items {
+    padding-top: 60px;
+}
+
+.footer-logo {
+    color: #ffc600;
+}
+
+.footer-logo:hover {
+    color: #ffc600;
+    opacity: 0.6;
+}
+
+.footer-logo:active {
+    opacity: 0.3;
+}
+
