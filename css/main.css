@@ -407,7 +407,8 @@ i.fa-plus {
     font-family: 'Open Sans';
     font-weight: lighter;
     width: 477px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    line-height: 1.9em;
 }
 
 .info-items {
@@ -422,4 +423,14 @@ i.fa-plus {
 
 .button-width {
     width: 260px;
+}
+
+.contacts {
+    float: right;
+    margin-top: -515px;
+    margin-right: 100px;
+}
+
+.contact-text {
+    width: 515px;
 }
