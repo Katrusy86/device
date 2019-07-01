@@ -434,3 +434,7 @@ i.fa-plus {
 .contact-text {
     width: 515px;
 }
+
+iframe {
+    margin-bottom: -31px;
+}
