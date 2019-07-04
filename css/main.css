@@ -14,6 +14,18 @@ body {
 }
 
 /* Header */
+.header-logo {
+    position: relative;
+    top: 12px;
+    left: 58px;
+}
+
+.header-logo-name {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;   
+} 
 
 .main-overlay {
     width: 1160px;
@@ -26,14 +38,6 @@ body {
     display: block;
 }
 
-.header-logo-name {
-    margin-top: 25px;
-    font-size: 48px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #000;   
-} 
-
 a:hover {
     opacity: 0.6;
     color: #000;
@@ -45,42 +49,48 @@ a:active {
 }
 
 .main-search {
-    padding-top: 45px;
-    padding-left: 60px;
+    padding-top: 52px;
+    padding-left: 22px;
+}
+
+.fa-search {
+    font-size: 17px;
 }
 
 .main-search-name {
     font-family: "Open Sans";
     font-weight: lighter;
     float: right;
-    margin-left: 15px;
+    margin-left: 17px;
     opacity: 0.3;
     background: #f7e296;
     border: #f7e296;
+    font-size: 15px;
+    margin-top: -2px
 }
 
 .catalog-list {
-    margin-top: 51px;
-    padding-left: 60px;
+    margin-top: 44px;
+    padding-left: 18px;
 }
 
 .catalog-name {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
     color: #000;
 }
 
 i.fa-plus {
     opacity: 0.5;
-    font-size: 15px;
-    
+    font-size: 19px;
+    margin-left: 4px;
 }
 
 .user-navigation {
-    margin-top: -253px;
-    margin-right: 139px;
+    margin-top: -251px;
+    margin-right: 102px;
     float: right;
 }
 
@@ -90,8 +100,8 @@ i.fa-plus {
 
 .menu-navigation {
     float: right;
-    margin-top: -247px;
-    margin-right: 131px;
+    margin-top: -250px;
+    margin-right: 96px;
 }
 
 .link-update {
@@ -121,15 +131,15 @@ i.fa-plus {
     font-weight: bolder;
     color:#000;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.19em;
 }
 
 .delivery-item {
-    margin-right: 40px;
+    margin-right: 35px;
 }
 
 .contacts-item {
-    margin-left: 120px;
+    margin-left: 114px;
 }
 
 .menu-item {
@@ -141,8 +151,8 @@ i.fa-plus {
 
 .slider-image {
     position: relative;
-    top: -100px;
-    left: 60px;
+    top: -111px;
+    left: 87px;
 }
 
 .slider-line {
@@ -152,7 +162,7 @@ i.fa-plus {
     width: 99px;
     height: 8px;
     top: -563px;
-    right: 516px;
+    right: 502px;
     float: right;
 }
 
@@ -161,33 +171,35 @@ i.fa-plus {
     color: #fff;
     font-weight: bold;
     position: absolute;
-    left: 315px;
-    top: -79px;
+    left: 328px;
+    top: -75px;
 }
 
 .slider-title {
-     font-size: 47px;
-     font-weight: bold;
-     width: 392px;
-     margin-top: 39px;    
+    font-size: 47px;
+    font-weight: bold;
+    width: 388px;
+    margin-top: 38px;
+    margin-left: 2px;    
 }
 
 .slider-text {
     font-weight: lighter;
-    width: 495px;
+    width: 497px;
     line-height: 2em;
-    margin-top: -16px;
-    margin-left: 1px;     
+    margin-top: -21px;
+    margin-left: -3px;
+    letter-spacing: 0.01em;     
 }
 
 .button {
     text-transform: uppercase;
     color: #000;
     position: relative;
-    width: 186px;
-    margin-top:69px; 
+    width: 217px;
+    margin-top: 56px;
     text-align: center;
-    cursor: pointer;
+    cursor: pointer
 }
   
 .button:before {
@@ -213,7 +225,7 @@ i.fa-plus {
     font-size: 18px;
     font-weight: bold; 
     margin-top: -5px;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.2em;
 }
 
 .button:active {
@@ -246,7 +258,7 @@ i.fa-plus {
 }
 
 .popular {
-    margin-bottom: 400px;
+    margin-bottom: 420px;
 }
 
 .popular-font {
@@ -261,12 +273,13 @@ i.fa-plus {
 
 .popular-item {
     float: left;
-    padding-right: 15px;
+    padding-right: 25px;
     padding-left: 15px;
+    margin-top: -7px;
 }
 
 .popular-item:nth-child(6) {
-    margin-top: -7px;
+    margin-top: -15px;
 }
 
 .popular-font:hover {
@@ -278,11 +291,15 @@ i.fa-plus {
     opacity: 0.3;
 }
 
+/* .popular-image {
+    margin-top: 20px;
+} */
+
 .popular-title {
     font-size: 18px;
     font-weight: bold;
     line-height: 1.4em;
-    margin-top: 40px;
+    margin-top: 31px;
     width: 160px;   
 }
 
@@ -303,19 +320,24 @@ i.fa-plus {
     margin-left: 45px;
 }
 
+.button-icon {
+    margin-top: 96px;
+    padding-left: 58px;
+}
+
 .service-items {
-    height: 316px;
+    height: 319px;
     width: 8px;
     border: 1px solid #000;
     background: #000;
-    margin-left: 280px;
-    margin-top: -196px;
+    margin-left: 278px;
+    margin-top: -175px;
 }
 
 .delivery {
     float: left;
-    margin-left: 117px;
-    margin-top: -7px;
+    margin-left: 124px;
+    margin-top: 28px;
 }
 
 .delivery-title {
@@ -326,15 +348,16 @@ i.fa-plus {
     font-family: 'Open Sans';
     font-size: 15px;
     width: 433px;
-    line-height: 1.9em;
-    margin-top: -20px;
+    line-height: 2.1em;
+    margin-top: -15px;
     font-weight: bold;
+    margin-left: -4px
 }
 
 .delivery-image {
     float: right;
-    margin-right: -267px;
-    margin-top: -165px;
+    margin-right: -261px;
+    margin-top: -173px;
 }
 
 .logotype-image-01 {
