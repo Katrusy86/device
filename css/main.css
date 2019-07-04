@@ -257,9 +257,7 @@ i.fa-plus {
     margin-right: -15px;
 }
 
-.popular {
-    margin-bottom: 420px;
-}
+
 
 .popular-font {
     border: 1px solid #f7e296;
@@ -309,6 +307,7 @@ i.fa-plus {
     height: 287px;
     background: #e5e5e5;
     margin-bottom: 102px;
+    margin-top: 450px;
 }
 
 .service-header li {
@@ -317,12 +316,11 @@ i.fa-plus {
 
 .service-button {
     margin-top: -35px;
-    margin-left: 45px;
+   
 }
 
 .button-icon {
-    margin-top: 96px;
-    padding-left: 58px;
+    
 }
 
 .service-items {
@@ -337,7 +335,7 @@ i.fa-plus {
 .delivery {
     float: left;
     margin-left: 124px;
-    margin-top: 28px;
+    margin-top: -82px;
 }
 
 .delivery-title {
@@ -422,15 +420,16 @@ i.fa-plus {
 }
 
 .info-line {
-    border:1px solid #000;
+    border: 1px solid #000;
     width: 80px;
     height: 7px;
     background: #000;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 
 .info-header {
     font-size: 47px;
+    margin-top: -12px;
 }
 
 .info-text {
@@ -457,8 +456,8 @@ i.fa-plus {
 
 .contacts {
     float: right;
-    margin-top: -515px;
-    margin-right: 33px;
+    margin-top: -523px;
+    margin-right: 39px;
 }
 
 .contact-text {
@@ -466,7 +465,7 @@ i.fa-plus {
 }
 
 iframe {
-    margin-bottom: -31px;
+    margin-bottom: 41px;
 }
 
 .footer {
@@ -536,7 +535,7 @@ iframe {
 
 .menu-item-nav {
     float: left;
-    padding-right: 40px;  
+    padding-right: 28px;  
 }
 
 .item-color {
