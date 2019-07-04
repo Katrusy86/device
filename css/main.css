@@ -28,7 +28,6 @@ body {
 
 .header-logo-name {
     margin-top: 25px;
-    margin-left: 60px;
     font-size: 48px;
     text-transform: uppercase;
     font-weight: bold;
@@ -107,6 +106,14 @@ i.fa-plus {
 
 .compare-link {
     margin-right: 40px;
+}
+
+.user-links:hover {
+    opacity: 0.6;   
+}
+
+.user-links:active {
+    opacity: 0.3;   
 }
 
 .item-update {
@@ -394,7 +401,7 @@ i.fa-plus {
 .info-line {
     border:1px solid #000;
     width: 80px;
-    height: 6px;
+    height: 7px;
     background: #000;
     margin-bottom: 50px;
 }
@@ -461,3 +468,115 @@ iframe {
     opacity: 0.3;
 }
 
+.footer-navigation {
+    float: right;
+    margin-top: 20px;
+}
+
+.footer-link-update {
+    font-family: 'Open Sans',sans-serif;
+    color: #fff;
+    font-weight: 200;
+    opacity: 0.7;
+}
+
+.footer-link-update:hover {
+    opacity: 1;
+    color: #fff;
+}
+
+.footer-link-update:active {
+    opacity: 0.3;
+}
+
+.footer-links {
+    padding-left: 50px;
+}
+
+.nav-icon {
+    padding-right: 10px;
+}
+
+.footer-address {
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    color: #fff;
+    float: left;
+    margin-right: 218px;
+}
+
+.footer-menu-nav {
+    float: right;
+    margin-top: 35px;
+    margin-right: 336px;
+}
+
+.menu-item-nav {
+    float: left;
+    padding-right: 40px;  
+}
+
+.item-color {
+    color:#fff;
+}
+
+.item-color:hover {
+    opacity: 0.6;
+    color:#fff;
+}
+
+.item-color:active {
+    opacity: 0.3;
+}
+
+.footer-phone {
+    margin-right: -340px;
+    float: right;
+}
+
+.footer-icons {
+    padding-top: 130px;
+}
+
+.footer-line {
+    border:1px solid #000;
+    width: 80px;
+    height: 7px;
+    background:#ffc600 ;
+    margin-bottom: 50px;
+}
+
+
+.footer-icon-item {
+    float: left;
+    padding-right: 20px;
+}
+
+.footer-icon-nav {
+    margin-top: -70px;
+    margin-left: 549px;
+}
+
+.footer-icon {
+    opacity: 0.3;
+}
+
+.footer-icon:hover {
+    opacity: 0.6;
+}
+
+.footer-icon:active {
+    opacity: 0.1;
+}
+
+.logo-html {
+    float: right;
+}
+
+.logo-html:hover {
+    opacity: 0.6;
+}
+
+.logo-html:active {
+    opacity: 0.3;
+}
