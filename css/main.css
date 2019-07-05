@@ -313,7 +313,7 @@ i.fa-plus {
     height: 287px;
     background: #e5e5e5;
     margin-bottom: 102px;
-    margin-top: 450px;
+    margin-top: 410px;
 }
 
 .service-header li {
@@ -402,7 +402,7 @@ i.fa-plus {
 
 .service-items {
     float: left;
-    margin-top: -100px;
+    margin-top: -70px;
 }
 
 .delivery {
@@ -430,64 +430,30 @@ i.fa-plus {
     margin-top: -173px;
 }
 
-.logotype-image-01 {
-    background: url(../img/logo-1.png);
-    margin-right: -71px;
-    opacity: 0.2;
-    width: 260px;
-    height: 100px;
-    float: left;   
+.logotypes {
+    margin-bottom: 300px;
 }
 
-.logotype-image-01:hover {
-    background: url(../img/logo-1IE.png);
-    opacity: 1;
+.logotype-items {
+    margin-top: -6px;
 }
-    
-.logotype-image-02 {
-    background: url(../img/logo-2.png);
-    margin-left: 60px;
+
+.logotype-image {
+    margin-right: 30px;
     opacity: 0.2;
     width: 260px;
     height: 100px;
+    filter: grayscale(100%);
     float: left;
+    transition: 250ms ease-in;   
 }
 
-.logotype-image-02:hover {
-    background: url(../img/logo-2IE.png);
+.logotype-image:hover {
     opacity: 1;
-}
- 
-.logotype-image-03 {
-    background: url(../img/logo-3.png);
-    margin-left: 60px;
-    opacity: 0.2;
-    width: 260px;
-    height: 100px;
-    float: left;
-}
-
-.logotype-image-03:hover {
-    background: url(../img/logo-3IE.png);
-    opacity: 1;
-}
-    
-.logotype-image-04 {
-    background: url(../img/logo-4.png);
-    margin-left: 60px;
-    opacity: 0.2;
-    width: 260px;
-    height: 100px;
-    float: left;
-}
-
-.logotype-image-04:hover {
-    background: url(../img/logo-4IE.png);
-    opacity: 1;
-}
+    filter: grayscale(0%);
+}    
     
 .info {
-    margin-top: 300px;
     margin-bottom: 90px;
 }
 
@@ -524,7 +490,7 @@ i.fa-plus {
 
 .button-width {
     width: 260px;
-    margin-top: 9px;
+    margin-top: 6px;
 }
 
 .contacts {
