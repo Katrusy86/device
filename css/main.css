@@ -315,12 +315,7 @@ i.fa-plus {
 }
 
 .service-button {
-    margin-top: -35px;
-   
-}
-
-.button-icon {
-    
+    margin-top: -75px;   
 }
 
 .service-items {
@@ -329,13 +324,12 @@ i.fa-plus {
     border: 1px solid #000;
     background: #000;
     margin-left: 278px;
-    margin-top: -175px;
+    margin-top: -255px;
 }
 
 .delivery {
     float: left;
     margin-left: 124px;
-    margin-top: -82px;
 }
 
 .delivery-title {
@@ -360,7 +354,7 @@ i.fa-plus {
 
 .logotype-image-01 {
     background: url(../img/logo-1.png);
-    margin-left: 35px;
+    margin-right: -71px;
     opacity: 0.2;
     width: 260px;
     height: 100px;
