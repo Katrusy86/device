@@ -1,12 +1,4 @@
 /*General page*/
-body {
-	font-family: 'Gilroy', sans-serif;
-	padding: 0px;
-    margin: 0px;
-    font-size: 15px;	
-}
-
-
 a, a:hover, a:active, a:focus,
 button, input, button:hover, button:active, button:focus,
 input:focus, input:active {

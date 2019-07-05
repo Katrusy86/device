@@ -39,13 +39,13 @@ body {
 }
 
 a:hover {
-    opacity: 0.6;
+    /* opacity: 0.6; */
     color: #000;
 }
 
 a:active {
-    opacity: 0.3;
-    color: #000;
+    /* opacity: 0.3; */
+    color: #000;/
 }
 
 .main-search {
@@ -192,17 +192,17 @@ i.fa-plus {
     letter-spacing: 0.01em;     
 }
 
-.button {
+.button-link {
     text-transform: uppercase;
     color: #000;
     position: relative;
     width: 217px;
     margin-top: 56px;
     text-align: center;
-    cursor: pointer
+    display: block;
 }
   
-.button:before {
+.button-link:before {
     content: "";
     height: 8px;
     position: absolute;
@@ -215,17 +215,22 @@ i.fa-plus {
     transition: 250ms ease-in-out;
 }
   
-.button:hover:before {
+.button-link:hover:before {
     height: 40px;
     margin-top: -20px;
 }
   
-.text {
+.button-link {
     position: relative;
     font-size: 18px;
     font-weight: bold; 
     margin-top: -5px;
     letter-spacing: 0.2em;
+}
+
+.button-text {
+    position: relative;
+    z-index: 1;
 }
 
 .button:active {
@@ -234,6 +239,7 @@ i.fa-plus {
 
 .slider-button {
     margin-bottom: 66px;
+    margin-top: 60px;
 }
 
 .slider-table {
@@ -315,16 +321,88 @@ i.fa-plus {
 }
 
 .service-button {
-    margin-top: -75px;   
+    padding: 0;
+    margin: 0;
+    margin-top: 94px;
+}
+
+.service-header {
+    float: left;
+    width: 285px;
+    position: relative;
+    margin-top: -100px;
+}
+
+.service-button-item {
+    width: 160px;
+}
+
+.service-button-item + .service-button-item {
+    margin-top: 50px;
+}
+
+.service-button-link {
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+  
+.service-button-link:before {
+    content: "";
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: #f0c52e;
+}
+  
+.service-button-link:hover:before {
+    height: 40px;
+    width: 280px;
+    background: #000000;
+    margin-top: -20px;
+}
+
+
+.service-button-item:hover .service-button-link {
+    color: #f7e184;
+}
+.service-button-link:active {
+    color: #f7e184;
+}
+
+
+.service-button-link {
+    position: relative;
+    font-size: 18px;
+    font-weight: bold; 
+    margin-top: -5px;
+    letter-spacing: 0.2em;
+    color: #000;
+}
+
+.service-header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-right: 7px solid #000;
+    height: 320px;
+}
+
+.service-button-text {
+    position: relative;
+    z-index: 1;
 }
 
 .service-items {
-    height: 319px;
-    width: 8px;
-    border: 1px solid #000;
-    background: #000;
-    margin-left: 278px;
-    margin-top: -255px;
+    float: left;
+    margin-top: -100px;
 }
 
 .delivery {
