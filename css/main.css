@@ -13,6 +13,17 @@ body {
     margin: 0 auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0px;
+    padding: 0px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* Header */
 .header-logo {
     position: relative;
@@ -74,7 +85,7 @@ body {
     padding-left: 18px;
 }
 
-.catalog-name {
+.catalog-menu {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
@@ -88,10 +99,28 @@ i.fa-plus {
     margin-left: 4px;
 }
 
+.catalog-menu-list {
+    background:#f7e296;
+    border: 1px solid #f7e296 ;
+    height: 133px;  
+}
+
+.catalog-menu-title {
+    font-size: 15px;
+    font-family: 'Open Sans';
+    color: #000;
+    
+}
+
+.catalog-menu-list {
+    float: left;
+}
+
 .user-navigation {
-    margin-top: -251px;
+    margin-top: -34px;
     margin-right: 102px;
-    float: right;
+    float: right
+
 }
 
 .user-links {
