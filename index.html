@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Device</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/vendor/magnificPopup.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
@@ -13,7 +14,7 @@
     <header class="main-header" id="main-header">
         <div class="container">
             <div class="header-logo">
-                <a class="header-logo-name"href="#" area-label="title">Device</a>
+                <a class="header-logo-name"href="#" area-label="Заголовок">Device</a>
             </div>
                 <div class="main-overlay">
                     <ul class="main-navigation">
@@ -26,39 +27,41 @@
                     <div class="user-navigation">
                         <div class="user-links">
                             <img src="img/user.png" class="nav-icon">
-                            <a href="#" class="login-link link-update"> Войти</a>
+                            <a href="#" class="login-link link-update" aria-label="Войти в аккаун"> Войти</a>
                         </div>
                         <div class="user-links">
                             <img src="img/compare.png" class="nav-icon">
-                            <a href="#"class="compare-link link-update"> Сравнить</a>    
+                            <a href="#"class="compare-link link-update"aria-label="Сравнить товары"> Сравнить</a>    
                         </div>
                         <div class="user-links">
                             <img src="img/cart.png" class="nav-icon">
-                            <a href="#" class="bag-link link-update">Корзина</a>                            </div>
-                    </div> 
-                       
+                            <a href="#" class="bag-link link-update" aria-label="Корзина для товаров">Корзина</a> 
+                        </div>
+                    </div>      
                     <div class="catalog-list">
-                        <a class="catalog-menu"href="#" area-label="catalog">Каталог товаров
+                        <a class="popup catalog-menu" href="#catalog_popup">Каталог товаров
                             <i class="fas fa-plus"></i>
                         </a>
-                    <div>
-                        <ul class="catalog-menu-list">
-                            <li><a href="#" class="catalog-menu-title">
+                    </div>
+                    <div class="hidden">
+                        <ul id="catalog_popup">
+                            <li>
+                                <a href="#" class="catalog-menu-title"aria-label="Товары">
                                 Виртуальная реальность
-                            </a>
+                                </a>
                             </li>
-                            <li><a href="#" class="catalog-menu-title">
+                            <li>
+                                <a href="#" class="catalog-menu-title"aria-label="Товары">
                                 Моноподы для селфи
-                            </a>
+                                </a>
                             </li>
-                            <li><a href="#" class="catalog-menu-title">
+                            <li>
+                                <a href="#" class="catalog-menu-title" aria-label="Товары">
                                 Экшн-камеры
-                            </a>
+                                </a>
                             </li>
                         </ul>
-                    
-                        
-                        <ul class="catalog-menu-list">
+                            <ul class= "catalog-menu-list" id="catalog_popup">    
                             <li><a href="#" class="catalog-menu-title">
                                 Фитнес-браслеты
                             </a>
@@ -67,27 +70,27 @@
                                 Умные часы
                                 </a>
                             </li>
-                        </ul>
-                        <ul class="catalog-menu-list">
+                    </ul>
+                    <ul class="catalog_popup catalog-menu-list">
                             <li><a href="#" class="catalog-menu-title">
                                 Квадрокоптеры
                             </a>
                             </li>
-                        </ul>
+                            </ul>
+                        
+                    </div>
+                <div class="menu-navigation">
+                    <div class="menu-item">
+                        <a href="#" class="delivery-item item-update" aria-label="Описание условий доставки">Доставка</a>    
+                    </div>
+                    <div class="menu-item">
+                        <a href="#"class="guarantee-item item-update"aria-label="Гарантия товара">Гарантия</a>    
+                    </div>
+                    <div class="menu-item">
+                        <a href="#" class="contacts-item item-update" aria-label="Контакты для связи">Контакты</a>
                     </div>
                 </div>
-    
-                                <div class="menu-navigation">
-                    <div class="menu-item">
-                        <a href="#" class="delivery-item item-update">Доставка</a>    
-                    </div>
-                    <div class="menu-item">
-                        <a href="#"class="guarantee-item item-update">Гарантия</a>    
-                    </div>
-                    <div class="menu-item">
-                        <a href="#" class="contacts-item item-update">Контакты</a>
-                    </div>
-                </div>
+            </div>
 </div>
         </div>
     </header>
@@ -320,6 +323,8 @@
             </div>
         </div>
     </footer>
-
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/MagnificPopup.js"></script>
+   <script src="js/main.js"></script>
 </body>
 </html>

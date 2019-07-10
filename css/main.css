@@ -56,7 +56,7 @@ body {
 
 .header-logo-name:active {
     opacity: 0.3;
-    color: #000;/
+    color: #000;
 }
 
 .main-search {
@@ -82,7 +82,7 @@ body {
 
 .catalog-list {
     margin-top: 44px;
-    padding-left: 18px;
+    padding-left: 64px;
 }
 
 .catalog-menu {
@@ -91,6 +91,10 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: #000;
+}
+
+.hidden {
+    display: none;
 }
 
 i.fa-plus {
@@ -129,8 +133,8 @@ i.fa-plus {
 
 .menu-navigation {
     float: right;
-    margin-top: -250px;
-    margin-right: 96px;
+    margin-top: -87px;
+    margin-right: 90px;
 }
 
 .link-update {
