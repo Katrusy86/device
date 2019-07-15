@@ -536,54 +536,58 @@ iframe {
     margin-bottom: 41px;
 }
 
-.footer {
+/* Footer */
+
+.footer{
     background: #464646;
     height: 324px;
 }
 
-.footer-items {
-    padding-top: 60px;
+.footer-top {
+    padding-top: 65px;
 }
 
-.footer-logo {
+.logo-footer {
     color: #ffc600;
 }
 
-.footer-logo:hover {
+.logo-footer:hover {
     color: #ffc600;
     opacity: 0.6;
 }
 
-.footer-logo:active {
+.logo-footer:active {
     opacity: 0.3;
 }
 
-.footer-navigation {
-    float: right;
+.footer-user-menu {
     margin-top: 20px;
+    float: right;
 }
 
-.footer-link-update {
+.footer-user-menu li{
+    display: block;
+    padding-left: 37px;
+    float: left;
+}
+
+.footer-user-item {
     font-family: 'Open Sans',sans-serif;
     color: #fff;
     font-weight: 200;
     opacity: 0.7;
 }
 
-.footer-link-update:hover {
+.footer-user-item:hover {
     opacity: 1;
     color: #fff;
 }
 
-.footer-link-update:active {
+.footer-user-item:active {
     opacity: 0.3;
 }
 
-.footer-links {
-    padding-left: 50px;
-}
-
-.nav-icon {
+.footer-user-icon {
     padding-right: 10px;
 }
 
@@ -592,40 +596,43 @@ iframe {
     font-weight: lighter;
     color: #fff;
     float: left;
-    margin-right: 218px;
+    padding-right: 165px;
 }
 
-.footer-menu-nav {
-    float: right;
-    margin-top: 35px;
-    margin-right: 336px;
+.footer-side-menu {
+
 }
 
-.menu-item-nav {
+.footer-side-item {
+    font-size: 18px;
+    font-weight: bolder;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 0.19em;
+}
+
+.footer-side-menu li {
+    display: block;
     float: left;
-    padding-right: 28px;  
+    padding-left: 37px;
+    padding-top: 15px;
 }
 
-.item-color {
-    color:#fff;
-}
-
-.item-color:hover {
+.footer-side-item:hover {
     opacity: 0.6;
-    color:#fff;
 }
 
-.item-color:active {
+.footer-side-item:active {
     opacity: 0.3;
 }
 
 .footer-phone {
-    margin-right: -340px;
+    color: #fff;
     float: right;
 }
 
-.footer-icons {
-    padding-top: 130px;
+.footer-bottom {
+    padding-top: 112px;
 }
 
 .footer-line {
@@ -633,18 +640,11 @@ iframe {
     width: 80px;
     height: 7px;
     background:#ffc600 ;
-    margin-bottom: 50px;
 }
 
-
-.footer-icon-item {
+.social-btn-facebook {
     float: left;
     padding-right: 20px;
-}
-
-.footer-icon-nav {
-    margin-top: -70px;
-    margin-left: 549px;
 }
 
 .footer-icon {
