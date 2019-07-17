@@ -80,6 +80,38 @@ body {
     margin-top: -2px
 }
 
+.user-menu {
+    margin-top: 20px;
+    float: right;
+}
+
+.user-menu li{
+    display: block;
+    padding-left: 37px;
+    float: left;
+}
+
+.user-item {
+    font-family: 'Open Sans',sans-serif;
+    color: #000;
+    font-weight: 200;
+    opacity: 0.7;
+}
+
+.user-item:focus,
+.user-item:hover {
+    opacity: 1;
+    color: #000;
+}
+
+.user-item:active {
+    opacity: 0.3;
+}
+
+.user-icon {
+    padding-right: 10px;
+}
+
 .catalog-list {
     margin-top: 44px;
     padding-left: 64px;
@@ -109,26 +141,15 @@ i.fa-plus {
     height: 133px;  
 }
 
+#catalog-popup li {
+    display: block;
+}
+
 .catalog-menu-title {
     font-size: 15px;
     font-family: 'Open Sans';
-    color: #000;
+    color: #fff;
     
-}
-
-.catalog-menu-list {
-    float: left;
-}
-
-.user-navigation {
-    margin-top: -34px;
-    margin-right: 102px;
-    float: right
-
-}
-
-.user-links {
-    float: left;   
 }
 
 .menu-navigation {
