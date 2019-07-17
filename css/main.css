@@ -459,15 +459,15 @@ i.fa-plus {
     margin-top: -173px;
 }
 
-.logotypes {
-    margin-bottom: 300px;
+.brands {
+    padding-bottom:175px;
 }
 
-.logotype-items {
-    margin-top: -6px;
+.brands-items li {
+    display: block;
 }
 
-.logotype-image {
+.brands-image {
     margin-right: 30px;
     opacity: 0.2;
     width: 260px;
@@ -477,7 +477,8 @@ i.fa-plus {
     transition: 250ms ease-in;   
 }
 
-.logotype-image:hover {
+.brands-image:focus,
+.brands-image:hover {
     opacity: 1;
     filter: grayscale(0%);
 }    
