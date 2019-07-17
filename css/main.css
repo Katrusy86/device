@@ -154,17 +154,35 @@ i.fa-plus {
 
 .menu-navigation {
     float: right;
-    margin-top: -87px;
-    margin-right: 90px;
 }
 
-.link-update {
-    font-family: 'Open Sans',sans-serif;
-    color: #000000;
-    font-weight: 200;
+.side-item {
+    font-size: 18px;
+    font-weight: bolder;
+    color:#000;
+    text-transform: uppercase;
+    letter-spacing: 0.19em;
 }
 
-.login-link {
+.side-menu li {
+    display: block;
+    float: left;
+    padding-left: 37px;
+    padding-top: 15px;
+}
+
+.side-item:focus,
+.side-item:hover {
+    opacity: 0.6;
+    color: #000;
+}
+
+.side-item:active {
+    opacity: 0.3;
+}
+
+
+/* .login-link {
     margin-right: 214px;
 }
 
@@ -186,7 +204,7 @@ i.fa-plus {
     color:#000;
     text-transform: uppercase;
     letter-spacing: 0.19em;
-}
+} */
 
 .delivery-item {
     margin-right: 35px;
@@ -621,10 +639,6 @@ iframe {
     color: #fff;
     float: left;
     padding-right: 165px;
-}
-
-.footer-side-menu {
-
 }
 
 .footer-side-item {
