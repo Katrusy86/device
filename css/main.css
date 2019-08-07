@@ -725,7 +725,7 @@ i.fa-plus {
     width: 960px;
     padding: 50px 80px;
     transform: translate(-50%, -50%);
-    /* display: none; */
+    display: none;
 }
 
 .modal-close {
@@ -796,5 +796,20 @@ i.fa-plus {
   margin-bottom: 33px;
 }
 
+
+/* Pop-up map */
+
+.modal-map {
+    top: 50%;
+    left: 50%;
+    margin-top: -280px;
+    margin-left: -390px;
+    border: 1px solid white;
+    display: none;
+}
+
+.modal-map p {
+    margin: 0;
+} 
 
   
