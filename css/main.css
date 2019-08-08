@@ -117,21 +117,12 @@ body {
     padding-right: 10px;
 }
 
-.catalog-list {
-    margin-top: 93px;
-    padding-left: 64px;
-}
-
 .catalog-menu {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: #000;
-}
-
-.hidden {
-    display: none;
 }
 
 i.fa-plus {
@@ -146,19 +137,52 @@ i.fa-plus {
     height: 133px;  
 }
 
-#catalog-popup li {
+/* Pop-up list */
+
+.catalog-menu {
+    cursor: pointer;
+}
+
+.catalog-list {
+    position: relative;   
+    margin-top: 101px;
+    padding-left: 64px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 54px;
+    margin-right: 540px;
+    
+}
+
+.hidden {
+    width: 1160px;
+    height: 125px;
+    background-color: #f7e296; 
+    position: absolute;
+    z-index: 10;
+    margin-left: -64px;
+    margin-top: 31px;
+    display: none;
+}
+
+.dropdown a {
+    color:#000;
+    padding: 6px;
+    text-decoration: none;
+    display: block;
+}
+
+.catalog-list:hover .hidden {
     display: block;
 }
 
 .catalog-menu-title {
     font-size: 15px;
     font-family: 'Open Sans';
-    color: #fff;
-    
-}
-
-.menu-navigation {
-    margin-top: -35px;
+    color: #fff;   
 }
 
 .side-item {
@@ -172,6 +196,7 @@ i.fa-plus {
 .side-menu {
     float: right;
     margin-right: 55px;
+    margin-top: 37px;
 }
 
 .side-menu li {
@@ -710,7 +735,7 @@ i.fa-plus {
     opacity: 0.3;
 }
 
-/* Pop-up window */
+/* Pop-up form */
 
 .modal {
     position: fixed;
