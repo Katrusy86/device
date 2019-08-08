@@ -159,12 +159,12 @@ i.fa-plus {
 
 .hidden {
     width: 1160px;
-    height: 125px;
-    background-color: #f7e296; 
+    height: 157px;
+    background-color: #f7e296;
     position: absolute;
     z-index: 10;
-    margin-left: -64px;
-    margin-top: 31px;
+    left: 0px;
+    top: 21px;
     display: none;
 }
 
@@ -173,6 +173,10 @@ i.fa-plus {
     padding: 6px;
     text-decoration: none;
     display: block;
+}
+
+.dropdown-child {
+    margin-top: 35px;
 }
 
 .catalog-list:hover .hidden {
