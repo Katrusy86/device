@@ -143,8 +143,7 @@ i.fa-plus {
     cursor: pointer;
 }
 
-.catalog-list {
-    position: relative;   
+.catalog-list {   
     margin-top: 101px;
     padding-left: 64px;
 }
@@ -159,12 +158,11 @@ i.fa-plus {
 
 .hidden {
     width: 1160px;
-    height: 157px;
     background-color: #f7e296;
     position: absolute;
     z-index: 10;
-    left: 0px;
-    top: 21px;
+    margin-left: -64px;
+    padding-bottom: 33px;
     display: none;
 }
 
@@ -183,6 +181,15 @@ i.fa-plus {
     display: block;
 }
 
+.dropdown a:hover {
+    opacity: 0.6;
+}
+
+.dropdown a:active {
+    opacity: 0.3;
+}
+
+
 .catalog-menu-title {
     font-size: 15px;
     font-family: 'Open Sans';
@@ -200,7 +207,7 @@ i.fa-plus {
 .side-menu {
     float: right;
     margin-right: 55px;
-    margin-top: 37px;
+    margin-top: -22px;
 }
 
 .side-menu li {
