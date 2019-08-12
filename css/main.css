@@ -68,7 +68,8 @@ body {
 .main-search .fas {
     position: absolute;
     font-size: 17px;
-    top:22px;
+    top: 18px;
+    left: -2px;
     cursor: pointer;
 }
 .main-search {
@@ -94,8 +95,12 @@ body {
     font-size: 15px;
 }
 
+.main-search-name::placeholder {
+    padding-left: 25px;
+}
+
 .main-search.active {
-    width: 358px;   
+    width: 354px;   
     transition: all 0.5s ease;
   }
   
@@ -104,17 +109,33 @@ body {
     transition: all 0.5s 0.8s ease;
   }
   
- input .main-search-name::placeholder {
-  
-  }
+.act-search {
+    position:absolute;
+    border: 2px solid #000;
+    width: 84px;
+    height: 47px;
+    background: #f7e296;
+    font-size: 15px;
+    color: #000;
+}
 
-  .search_title {
-      color: #000;
-      font-size: 15px;
-  }
+.act-search:hover {
+    background: #000;
+    color: #fff;
+}
 
+.act-search:active {
+    color: rgba(255, 255, 255, 0.3);
+}
 
-
+.title-search {
+    margin-top: -7px;
+    margin-left: 28px;
+    opacity: 0.3;
+    font-size: 15px;
+    color: #000;
+    font-family: "Open Sans";
+}
 
 
 .user-navigation {
