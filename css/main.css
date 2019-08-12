@@ -59,6 +59,8 @@ body {
     color: #000;
 }
 
+/* Search */
+
 .main-search {
     padding-top: 52px;
     padding-left: 22px;
@@ -818,6 +820,10 @@ i.fa-plus {
     font: inherit;
     border: 3px solid #f9f9f9;
     margin-top: 12px;
+}
+
+input:invalid {
+    background:rgba(237, 181, 181, 0.5);
 }
 
 .login-form input:focus,

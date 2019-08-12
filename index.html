@@ -323,7 +323,7 @@
             <div class="form">
             <div class="form_name">
             <label class="user-login" for="user-login">Ваше имя:</label>
-            <input class="login-icon-user" id="user-login" type="text" placeholder="Имя Фамилия" required>
+            <input class="login-icon-user" id="user-login" type="text" placeholder="Имя Фамилия" required pattern="[^0-9]">
             </div>
             <div class="form_name">
             <label class="user-login" for="user-email">Ваш e-mail:</label>
@@ -333,7 +333,7 @@
            
             <label class="user-login" for="user-email">Текст письма:</label>
             <textarea class="login-icon-text" id="user-text" type="text"  placeholder="В свободной форме" maxlength="400" required></textarea>
-            <div class="button">
+            <div class="button"type="submit">
                 <a class="button-link" href="">
                     <span class="button-text">Отправить</span>
                 </a>
