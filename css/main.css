@@ -761,7 +761,7 @@ i.fa-plus {
     width: 960px;
     padding: 50px 80px;
     transform: translate(-50%, -50%);
-    display: none;
+    /* display: none; */
 }
 
 .modal-close {
@@ -773,8 +773,16 @@ i.fa-plus {
     font-size: 0;
     border: 1px;
     border-radius: 50%;
-    background: #f7e184;
+    background: rgba(240, 197, 46, 0.5);
     cursor: pointer;
+}
+
+.modal-close:hover {
+    background: #f0c52e;
+}
+
+.modal-close:focus {
+    background: rgba(240, 197, 46, 0.3)
 }
 
 .modal-close::before,
@@ -806,14 +814,22 @@ i.fa-plus {
     width: 360px;
     padding: 19px 15px;
     padding-right: 30px;
-    background: #f9f9f9;
+    background: rgba(229,229,229,0.5);
     font: inherit;
-    border: 1px solid #f9f9f9;
+    border: 3px solid #f9f9f9;
     margin-top: 12px;
 }
 
-.login-form input:focus {
-    border-color: #663d15;
+.login-form input:focus,
+.login-icon-text:focus {
+    border-color: rgba(240, 197, 46, 0.5);
+    outline: none;
+    background: #fff;   
+}
+
+.login-form input:hover,
+.login-icon-text:hover {
+    background: rgba(229, 229, 229, 1);   
 }
 
 .login-icon-text {
@@ -831,7 +847,6 @@ i.fa-plus {
   display: flex;
   margin-bottom: 33px;
 }
-
 
 /* Pop-up map */
 
