@@ -95,10 +95,6 @@ body {
     font-size: 15px;
 }
 
-.main-search-name::placeholder {
-    padding-left: 25px;
-}
-
 .main-search.active {
     width: 354px;   
     transition: all 0.5s ease;
@@ -117,6 +113,9 @@ body {
     background: #f7e296;
     font-size: 15px;
     color: #000;
+    top: 1px;
+    cursor: pointer;
+    visibility: hidden;
 }
 
 .act-search:hover {
@@ -124,18 +123,24 @@ body {
     color: #fff;
 }
 
+.act-search.active {
+    transition: all 0.5s 0.8s ease;
+    visibility: visible;
+}
+
 .act-search:active {
     color: rgba(255, 255, 255, 0.3);
 }
 
-.title-search {
-    margin-top: -7px;
+/* .title-search {
+    margin-top: -17px;
     margin-left: 28px;
     opacity: 0.3;
     font-size: 15px;
     color: #000;
     font-family: "Open Sans";
-}
+    width: 110px;
+} */
 
 
 .user-navigation {
