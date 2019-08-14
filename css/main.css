@@ -8,12 +8,6 @@ body {
     font-size: 15px;
 }
 
-.clearfix:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -51,10 +45,6 @@ body {
     margin-top: -35px;
 }
 
-.main-navigation li {
-    display: block;
-}
-
 .header-logo-name:hover {
     opacity: 0.6;
     color: #000;
@@ -71,12 +61,8 @@ body {
     display: flex;
 }
 
-.main-navigation {
-    
-}
-
 .user-navigation {
-    
+    padding-top: 38px; 
 }
 
 .main-search .fas {
@@ -126,17 +112,6 @@ body {
     display: block;
     
 }
-
-
-.main-search.active {
-    width: 354px;   
-    transition: all 0.5s ease;
-  }
-  
-.main-search-name.active {
-    width: 98%;
-    transition: all 0.5s 0.8s ease;
-  }
   
 .act-search {
     position:absolute;
@@ -146,7 +121,7 @@ body {
     background: #f7e296;
     font-size: 15px;
     color: #000;
-    bottom: 1px;
+    bottom: 14px;
     left: 100%;
     cursor: pointer;
     display: none;
@@ -157,29 +132,10 @@ body {
     color: #fff;
 }
 
-.act-search.active {
-    transition: all 0.5s 0.8s ease;
-    visibility: visible;
-}
-
 .act-search:active {
     color: rgba(255, 255, 255, 0.3);
 }
 
-/* .title-search {
-    margin-top: -17px;
-    margin-left: 28px;
-    opacity: 0.3;
-    font-size: 15px;
-    color: #000;
-    font-family: "Open Sans";
-    width: 110px;
-} */
-
-
-.user-navigation {
-    margin-top: -22px;
-}
 .user-menu {
     float: right;
     margin-right: 59px;
@@ -215,6 +171,12 @@ body {
     padding-right: 10px;
 }
 
+/* Pop-up list */
+
+.catalog-container {
+    padding-top: 37px;
+}
+
 .catalog-menu {
     font-size: 18px;
     font-weight: bold;
@@ -235,14 +197,11 @@ i.fa-plus {
     height: 133px;  
 }
 
-/* Pop-up list */
-
 .catalog-menu {
     cursor: pointer;
 }
 
 .catalog-list {   
-    margin-top: 89px;
     padding-left: 61px;
 }
 
@@ -260,7 +219,7 @@ i.fa-plus {
     position: absolute;
     z-index: 10;
     margin-left: -61px;
-    padding-bottom: 37px;
+    padding-bottom: 22px;
     display: none;
 }
 
@@ -856,7 +815,6 @@ i.fa-plus {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    display: none;
 }
 
 .modal-login {
