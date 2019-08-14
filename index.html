@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Device</title>
+    <title>Главная страница</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/vendor/magnificPopup.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -14,10 +14,13 @@
     <header class="main-header">
         <div class="container">
             <h1 class="visually-hidden">Логотип</h1>
+
             <div class="header-logo">
                 <a class="header-logo-name"href="#" area-label="Заголовок">Device</a>
             </div>
-                <div class="main-overlay">
+
+            <div class="main-overlay">
+                <div class="navigation">
                     <div class="main-navigation">
                         <div class="main-search">
                             <input type="text" placeholder="Поиск по сайту" class="main-search-name" autocomplete="on">
@@ -25,52 +28,54 @@
                             <i class="fas fa-search"></i>
                         </div>
                     </div>
-                <div class="user-navigation">
-                    <ul class="user-menu">
-                        <li class="user-menu-item">
-                            <img src="img/user.png"class="user-icon">
-                            <a href="#" class="user-item user-item-update">Войти</a>
-                        </li>
-                        <li class="user-menu-item">
-                            <img src="img/compare.png"class="user-icon">
-                            <a href="#"class="user-item">Сравнить</a>
-                        </li>
-                        <li class="user-menu-item">
-                            <img src="img/cart.png"class="user-icon">
-                            <a href="#"class="user-item">Корзина</a>
-                        </li>
-                    </ul>
-                </div> 
+                    <div class="user-navigation">
+                        <ul class="user-menu">
+                            <li class="user-menu-item">
+                                <img src="img/user.png"class="user-icon">
+                                <a href="#" class="user-item user-item-update">Войти</a>
+                            </li>
+                            <li class="user-menu-item">
+                                <img src="img/compare.png"class="user-icon">
+                                <a href="#"class="user-item">Сравнить</a>
+                            </li>
+                            <li class="user-menu-item">
+                                <img src="img/cart.png"class="user-icon">
+                                <a href="#"class="user-item">Корзина</a>
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
                     
-                    
-                <div class="catalog-list">
-                    <a class="catalog-menu" href="#">Каталог товаров
-                        <i class="fas fa-plus"></i>    
-                    </a>
-                    <div class="hidden">
-                        <div class="dropdown">
-                            <div class="dropdown-child">
-                                <a href="">Виртуальная реальность</a>
-                                <a href="">Моноподы для селфи</a>
-                                <a href="">Экшн-камеры</a>
+                <div class="catalog-container">
+                    <div class="catalog-list">
+                        <a class="catalog-menu" href="#">Каталог товаров
+                            <i class="fas fa-plus"></i>    
+                        </a>
+                        <div class="hidden">
+                            <div class="dropdown">
+                                <div class="dropdown-child">
+                                    <a href="">Виртуальная реальность</a>
+                                    <a href="">Моноподы для селфи</a>
+                                    <a href="">Экшн-камеры</a>
+                                </div>
+                                <div class="dropdown-child">
+                                    <a href="">Фитнес браслеты</a>
+                                    <a href="">Умные часы</a>
+                                </div>  
+                                <div class="dropdown-child">
+                                    <a href="">Квадракоптеры</a>
+                                </div>    
                             </div>
-                            <div class="dropdown-child">
-                                <a href="">Фитнес браслеты</a>
-                                <a href="">Умные часы</a>
-                            </div>  
-                            <div class="dropdown-child">
-                                <a href="">Квадракоптеры</a>
-                            </div>    
                         </div>
                     </div>
-                </div>
-                <div class="menu-navigation">
+                    <div class="menu-navigation">
                         <ul class="side-menu">
                             <li><a href="#" class="side-item">Доставка</a></li>
                             <li><a href="#" class="side-item">Гарантия</a></li>
                             <li><a href="#" class="side-item side-item-update">Контакты</a></li>
                         </ul>
-                </div>                        
+                    </div> 
+                </div>                       
             </div>
     </div>
 </header>
@@ -319,7 +324,7 @@
         </div>
     </footer>
     
-    <section class="modal modal-login">
+    <div class="modal modal-login">
         <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
             <div class="form">
             <div class="form_name">
@@ -341,12 +346,12 @@
                 </div>
         </form>
         <button class="modal-close" type="button">Закрыть</button> 
-    </section>
+    </div>
 
-    <section class="modal modal-map">
-           <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzEx!5e0!3m2!1sru!2sua!4v1562000084215!5m2!1sru!2sua" width="960" height="562" frameborder="0" allowfullscreen></iframe></p>
-            <button class="modal-close" type="button">Закрыть</button>
-    </section>
+    <div class="modal modal-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzEx!5e0!3m2!1sru!2sua!4v1562000084215!5m2!1sru!2sua" width="960" height="562" frameborder="0" allowfullscreen></iframe>
+        <button class="modal-close" type="button">Закрыть</button>
+    </div>
     
     
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>

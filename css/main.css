@@ -8,6 +8,12 @@ body {
     font-size: 15px;
 }
 
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -60,7 +66,16 @@ body {
 }
 
 /* Search */
+.navigation {
+    justify-content: space-between;
+    display: flex;
+}
+
 .main-navigation {
+    
+}
+
+.user-navigation {
     
 }
 
@@ -72,29 +87,46 @@ body {
     cursor: pointer;
 }
 .main-search {
-    width: 0px;
-    height: 50px;
     line-height: 45px;
     transition: all 0.5s ease;
     border-radius: 5px;
     position: relative;
     padding-left: 64px;
-  }
+    padding-top: 38px;
+}
   
 .main-search-name {
     border: 0px #f7e296;
-    border-bottom: 2px solid #000;
+    color: #000;
     background: #f7e296;
-    width: 0%;
     outline: none;
-    font-weight: bold;
-    transition: all 0.3s ease;
+    font-weight: 300;
     font-family: "Open Sans";
-    padding-top: 53px;
-    opacity: 0.3;
     font-size: 15px;
     padding-left: 32px;
+    padding-bottom: 10px;
+    width: 170px;
 }
+
+.main-search-name::placeholder {
+    color: rgba(0,0,0,.3);
+    transition: color 0.3s ease;
+}
+
+.main-search-name:hover::placeholder {
+    color: rgba(0,0,0,.6);
+}
+
+.main-search-name:focus {
+    border-bottom: 2px solid #000;
+    width: 358px;
+}
+
+.main-search-name:focus + .act-search {
+    display: block;
+    
+}
+
 
 .main-search.active {
     width: 354px;   
@@ -114,9 +146,10 @@ body {
     background: #f7e296;
     font-size: 15px;
     color: #000;
-    top: 29px;
+    bottom: 1px;
+    left: 100%;
     cursor: pointer;
-    visibility: hidden;
+    display: none;
 }
 
 .act-search:hover {
@@ -817,16 +850,17 @@ i.fa-plus {
     position: fixed;
     color:#0000;
     background: #fff;
-    box-shadow:0 30px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 960px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
 }
 
 .modal-login {
-    top: 50%;
-    left: 50%;
-    width: 960px;
     padding: 50px 80px;
-    transform: translate(-50%, -50%);
-    display: none;
 }
 
 .modal-close {
@@ -920,12 +954,7 @@ input:invalid {
 /* Pop-up map */
 
 .modal-map {
-    top: 50%;
-    left: 50%;
-    margin-top: -280px;
-    margin-left: -390px;
     border: 1px solid white;
-    display: none;
 }
 
 .modal-map p {
