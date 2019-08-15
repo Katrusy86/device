@@ -1,4 +1,20 @@
 
+@font-face {
+    font-family: "Gilroy";
+	src: url('../fonts/gilroy/Gilroylight.ttf') format('truetype');
+    font-style: normal;
+}   
+
+@font-face {
+    font-family: "GilroyExtraBold";
+	src: url('../fonts/gilroy/Gilroyextrabold.ttf') format('truetype');
+    font-style: normal;
+}   
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "GilroyExtraBold";
+}
+
 /*General page*/
 
 body {
@@ -25,10 +41,13 @@ body {
 }
 
 /* Header */
+.main-header {
+    margin-top: 20px;
+}
+
 .header-logo {
-    position: relative;
-    top: -5px;
-    left: 61px;
+    margin-top: -5px;
+    margin-left: 61px;
 }
 
 .header-logo-name {
@@ -61,10 +80,13 @@ body {
     display: flex;
 }
 
+<<<<<<< HEAD
+=======
 .user-navigation {
     padding-top: 38px; 
 }
 
+>>>>>>> af0d2d2dbd23223de1ea95bdecef18aa76d28db9
 .main-search .fas {
     position: absolute;
     font-size: 17px;
@@ -136,10 +158,27 @@ body {
     color: rgba(255, 255, 255, 0.3);
 }
 
+<<<<<<< HEAD
+/* .title-search {
+    margin-top: -17px;
+    margin-left: 28px;
+    opacity: 0.3;
+    font-size: 15px;
+    color: #000;
+    font-family: "Open Sans";
+    width: 110px;
+} */
+
+
+.user-navigation {
+    margin-top: 40px;
+}
+
+=======
+>>>>>>> af0d2d2dbd23223de1ea95bdecef18aa76d28db9
 .user-menu {
     float: right;
     margin-right: 59px;
-    margin-top: 22px;
 }
 
 .user-item-update {
@@ -193,10 +232,22 @@ i.fa-plus {
 
 .catalog-menu-list {
     background:#f7e296;
-    border: 1px solid #f7e296 ;
+    border: 1px solid #f7e296;
     height: 133px;  
 }
 
+<<<<<<< HEAD
+/* Pop-up list */
+
+.catalog-container {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 40px;
+    padding-right: 55px;
+}
+
+=======
+>>>>>>> af0d2d2dbd23223de1ea95bdecef18aa76d28db9
 .catalog-menu {
     cursor: pointer;
 }
@@ -264,7 +315,8 @@ i.fa-plus {
 .side-menu {
     float: right;
     margin-right: 55px;
-    margin-top: -22px;
+    margin: 0;
+    padding: 0;
 }
 
 .side-menu li {
@@ -689,12 +741,17 @@ i.fa-plus {
 .footer-user-menu {
     margin-top: 20px;
     float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.footer-user-menu li{
+.footer-user-menu li {
     display: block;
-    padding-left: 37px;
     float: left;
+}
+.footer-user-menu li + li {
+    padding-left: 37px;
 }
 
 .footer-user-item {
