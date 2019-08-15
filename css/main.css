@@ -1,4 +1,20 @@
 
+@font-face {
+    font-family: "Gilroy";
+	src: url('../fonts/gilroy/Gilroylight.ttf') format('truetype');
+    font-style: normal;
+}   
+
+@font-face {
+    font-family: "GilroyExtraBold";
+	src: url('../fonts/gilroy/Gilroyextrabold.ttf') format('truetype');
+    font-style: normal;
+}   
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "GilroyExtraBold";
+}
+
 /*General page*/
 
 body {
@@ -31,10 +47,13 @@ body {
 }
 
 /* Header */
+.main-header {
+    margin-top: 20px;
+}
+
 .header-logo {
-    position: relative;
-    top: -5px;
-    left: 61px;
+    margin-top: -5px;
+    margin-left: 61px;
 }
 
 .header-logo-name {
@@ -69,14 +88,6 @@ body {
 .navigation {
     justify-content: space-between;
     display: flex;
-}
-
-.main-navigation {
-    
-}
-
-.user-navigation {
-    
 }
 
 .main-search .fas {
@@ -178,12 +189,12 @@ body {
 
 
 .user-navigation {
-    margin-top: -22px;
+    margin-top: 40px;
 }
+
 .user-menu {
     float: right;
     margin-right: 59px;
-    margin-top: 22px;
 }
 
 .user-item-update {
@@ -231,18 +242,24 @@ i.fa-plus {
 
 .catalog-menu-list {
     background:#f7e296;
-    border: 1px solid #f7e296 ;
+    border: 1px solid #f7e296;
     height: 133px;  
 }
 
 /* Pop-up list */
+
+.catalog-container {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 40px;
+    padding-right: 55px;
+}
 
 .catalog-menu {
     cursor: pointer;
 }
 
 .catalog-list {   
-    margin-top: 89px;
     padding-left: 61px;
 }
 
@@ -305,7 +322,8 @@ i.fa-plus {
 .side-menu {
     float: right;
     margin-right: 55px;
-    margin-top: -22px;
+    margin: 0;
+    padding: 0;
 }
 
 .side-menu li {
@@ -730,12 +748,17 @@ i.fa-plus {
 .footer-user-menu {
     margin-top: 20px;
     float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.footer-user-menu li{
+.footer-user-menu li {
     display: block;
-    padding-left: 37px;
     float: left;
+}
+.footer-user-menu li + li {
+    padding-left: 37px;
 }
 
 .footer-user-item {
