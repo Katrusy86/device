@@ -447,16 +447,21 @@ i.fa-plus {
 .slide-radio {
     border: 1px solid #000;
     border-radius: 50%;
-    width: 11px;
-    height: 11px;
+    width: 13px;
+    height: 13px;
     display: inline-flex;
     margin-right: 22px;
     cursor: pointer;
 }
 
-.slide-btn {
-    display: none;
+.slide-btn li:hover {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin: auto;
 }
+
 
 /* Popular items */
 .row {
