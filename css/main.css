@@ -432,6 +432,32 @@ i.fa-plus {
     font-family: 'Open Sans', sans-serif; 
 }
 
+.slide-container {
+    display: flex;
+}
+
+.slides-switches {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 60px;
+    margin-left: 177px;
+}
+
+.slide-radio {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    display: inline-flex;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.slide-btn {
+    display: none;
+}
+
 /* Popular items */
 .row {
     margin-left: -15px;
