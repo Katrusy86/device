@@ -53,7 +53,7 @@ body {
 .header-logo-name {
     font-size: 48px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-family: 'GilroyExtraBold';
     color: #000;   
 } 
 
@@ -80,13 +80,6 @@ body {
     display: flex;
 }
 
-<<<<<<< HEAD
-=======
-.user-navigation {
-    padding-top: 38px; 
-}
-
->>>>>>> af0d2d2dbd23223de1ea95bdecef18aa76d28db9
 .main-search .fas {
     position: absolute;
     font-size: 17px;
@@ -111,9 +104,9 @@ body {
     font-weight: 300;
     font-family: "Open Sans";
     font-size: 15px;
-    padding-left: 32px;
+    padding-left: 32px; 
     padding-bottom: 10px;
-    width: 170px;
+    width: 170px ;
 }
 
 .main-search-name::placeholder {
@@ -130,11 +123,6 @@ body {
     width: 358px;
 }
 
-.main-search-name:focus + .act-search {
-    display: block;
-    
-}
-  
 .act-search {
     position:absolute;
     border: 2px solid #000;
@@ -143,12 +131,17 @@ body {
     background: #f7e296;
     font-size: 15px;
     color: #000;
-    bottom: 14px;
+    bottom: 2px;
     left: 100%;
     cursor: pointer;
     display: none;
 }
 
+.main-search-name:focus + .act-search {
+    display: block;
+    
+}
+  
 .act-search:hover {
     background: #000;
     color: #fff;
@@ -158,24 +151,10 @@ body {
     color: rgba(255, 255, 255, 0.3);
 }
 
-<<<<<<< HEAD
-/* .title-search {
-    margin-top: -17px;
-    margin-left: 28px;
-    opacity: 0.3;
-    font-size: 15px;
-    color: #000;
-    font-family: "Open Sans";
-    width: 110px;
-} */
-
-
 .user-navigation {
     margin-top: 40px;
 }
 
-=======
->>>>>>> af0d2d2dbd23223de1ea95bdecef18aa76d28db9
 .user-menu {
     float: right;
     margin-right: 59px;
@@ -212,13 +191,9 @@ body {
 
 /* Pop-up list */
 
-.catalog-container {
-    padding-top: 37px;
-}
-
 .catalog-menu {
     font-size: 18px;
-    font-weight: bold;
+    font-family: 'GilroyExtraBold';
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: #000;
@@ -236,9 +211,6 @@ i.fa-plus {
     height: 133px;  
 }
 
-<<<<<<< HEAD
-/* Pop-up list */
-
 .catalog-container {
     justify-content: space-between;
     display: flex;
@@ -246,13 +218,11 @@ i.fa-plus {
     padding-right: 55px;
 }
 
-=======
->>>>>>> af0d2d2dbd23223de1ea95bdecef18aa76d28db9
 .catalog-menu {
     cursor: pointer;
 }
 
-.catalog-list {   
+.catalog-list { 
     padding-left: 61px;
 }
 
@@ -270,7 +240,7 @@ i.fa-plus {
     position: absolute;
     z-index: 10;
     margin-left: -61px;
-    padding-bottom: 22px;
+    padding-bottom: 37px;
     display: none;
 }
 
@@ -306,7 +276,7 @@ i.fa-plus {
 
 .side-item {
     font-size: 18px;
-    font-weight: bolder;
+    font-family: 'GilroyExtraBold';
     color:#000;
     text-transform: uppercase;
     letter-spacing: 0.19em;
@@ -374,7 +344,7 @@ i.fa-plus {
 .slider-number {
     font-size: 180px;
     color: #fff;
-    font-weight: bold;
+    font-family: 'GilroyExtraBold';
     position: absolute;
     left: 328px;
     top: -75px;
@@ -382,7 +352,7 @@ i.fa-plus {
 
 .slider-title {
     font-size: 47px;
-    font-weight: bold;
+    font-family: 'GilroyExtraBold';
     width: 388px;
     margin-top: 38px;
     margin-left: 2px;    
@@ -428,7 +398,7 @@ i.fa-plus {
 .button-link {
     position: relative;
     font-size: 18px;
-    font-weight: bold; 
+    font-family: 'GilroyExtraBold'; 
     margin-top: -5px;
     letter-spacing: 0.2em;
 }
@@ -504,7 +474,7 @@ i.fa-plus {
 
 .popular-title {
     font-size: 18px;
-    font-weight: bold;
+    font-family: 'GilroyExtraBold';
     line-height: 1.4em;
     margin-top: 31px;
     width: 160px;   
@@ -582,7 +552,7 @@ i.fa-plus {
 .service-button-link {
     position: relative;
     font-size: 18px;
-    font-weight: bold; 
+    font-family: 'GilroyExtraBold'; 
     margin-top: -5px;
     letter-spacing: 0.2em;
     color: #000;
@@ -622,7 +592,7 @@ i.fa-plus {
     width: 433px;
     line-height: 2.1em;
     margin-top: -15px;
-    font-weight: bold;
+    font-weight: lighter;
     margin-left: -4px
 }
 
@@ -636,6 +606,8 @@ i.fa-plus {
 
 .brands-items li {
     display: block;
+    margin: 0px;
+    padding: 0px;
 }
 
 .brands-image {
@@ -675,10 +647,6 @@ i.fa-plus {
     
 }
 
-.text {
-    padding-bottom: 60px;
-}
-
 .info-text {
     font-family: 'Open Sans';
     font-weight: lighter;
@@ -688,11 +656,14 @@ i.fa-plus {
 
 .info-slide {
     font-size: 16px;
-    font-weight: bold;   
+    font-family: 'GilroyExtraBold'; 
+    margin: 0px;
+    padding: 0px;
 }
 
 .info-items {
-    padding-bottom: 35px;
+    margin-top: 60px;
+    margin-left: -24px;
 }
 
 .info-items li {
@@ -784,17 +755,21 @@ i.fa-plus {
 
 .footer-side-item {
     font-size: 18px;
-    font-weight: bolder;
+    font-family: 'GilroyExtraBold';
     color:#fff;
     text-transform: uppercase;
     letter-spacing: 0.19em;
+    padding-left: 37px;
 }
 
+.footer-side-menu {
+    padding-top: 15px;  
+}
 .footer-side-menu li {
     display: block;
     float: left;
-    padding-left: 37px;
-    padding-top: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 .footer-side-item:focus,
@@ -823,18 +798,21 @@ i.fa-plus {
 }
 
 .social-buttons {
-    margin-top: -18px;
-    margin-left: 504px; 
+    margin-top: -18px; 
+    margin-left: 500px;
+}
+
+
+.social-buttons li {
+    margin: 0;
+    padding: 0; 
+    display: block;
 }
 
 .social-btn-icon {
     float: left;
     opacity: 0.3;
     padding-left: 20px;
-}
-
-.social-buttons li {
-    display: block;  
 }
 
 .social-btn-icon:focus,
@@ -957,7 +935,7 @@ input:invalid {
 }
 
 .user-login {
-    font-weight: bold;
+    font-family: 'GilroyExtraBold';
     color: #000;
 }
 
