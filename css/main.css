@@ -663,12 +663,13 @@ i.fa-plus {
     padding: 75px 20px; 
 }
 
-.info-line {
+.info-line:before {
+    content: '';
+    display: block;
     border: 1px solid #000;
     width: 80px;
     height: 7px;
     background: #000;
-    
 }
 
 .info-header {
@@ -820,7 +821,9 @@ i.fa-plus {
     padding-top: 112px;
 }
 
-.footer-line {
+.footer-line:before {
+    content: "";
+    display: block;
     border:1px solid #000;
     width: 80px;
     height: 7px;
