@@ -454,12 +454,16 @@ i.fa-plus {
     cursor: pointer;
 }
 
-.slide-btn li:hover {
+.slide-btn {
     border: 1px solid #000;
     border-radius: 50%;
     width: 5px;
     height: 5px;
     margin: auto;
+}
+
+.slide-btn:hover {
+    
 }
 
 
