@@ -14,8 +14,8 @@
         <div class="container">
             <h1 class="visually-hidden">Логотип</h1>
 
-            <div class="header-logo">
-                <a class="header-logo-name"href="#" area-label="Заголовок">Device</a>
+            <div class="header-logo" id="header-logo">
+                <a class="header-logo-name"href="#header-logo" area-label="Заголовок">Device</a>
             </div>
 
             <div class="main-overlay">
@@ -79,11 +79,11 @@
     <section class="sliders"> 
         <div class="container">
             <h2 class="visually-hidden">Слайды популярных товаров</h2>
+            
             <div class="slider-first">
                 <img src="img/slider/slider-1.png" class="slider-image" alt="image"> 
             </div>
             <div class="slider-line">
-    
             <div class="slider-wrapper">
                 <div class="slider-container">
                     <div class="slider-item">
@@ -119,7 +119,8 @@
                         </table>
                     </div>
                 </div>
-                <div class="slider-item">                        
+                <div class="slider-item">
+                                            
                 </div>
                 <div class="slider-item">                       
                 </div>
@@ -282,7 +283,7 @@
                     </div>
                     
                     <div class="button index-button">
-                        <a class="button-link button-width" href="">
+                        <a class="button-link button-active" href="">
                             <span class="button-text">Напишите нам</span>
                         </a>
                     </div>
@@ -295,8 +296,9 @@
         <div class="container">
             <div class="footer-user">
                 <h2 class="visually-hidden">Для пользователя</h2>
+                
                 <div class="footer-header-block">
-                <span class="header-logo-name logo-footer">Device</span> 
+                <a href="#" class="header-logo-name logo-footer">Device</a> 
                 <ul class="footer-user-menu">
                     <li class="footer-menu-item">
                         <img src="img/user-color.png"class="footer-user-icon">
@@ -357,16 +359,16 @@
         </div>
     </footer>
     
-    <div class="modal modal-login" style="display:none;">
+    <div class="modal modal-login">
         <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
             <div class="form">
             <div class="form_name">
             <label class="user-login" for="user-login">Ваше имя:</label>
-            <input class="login-icon-user" id="user-login" type="text" placeholder="Имя Фамилия" required pattern="[^0-9]">
+            <input class="login-icon-user" name="login" id="user-login" type="text" placeholder="Имя Фамилия" required pattern="[^0-9]">
             </div>
             <div class="form_name">
             <label class="user-login" for="user-email">Ваш e-mail:</label>
-            <input class="login-icon-email" id="user-email" type="email"  placeholder="email@example.com"required>
+            <input class="login-icon-email" name="email" id="user-email" type="email"  placeholder="email@example.com"required>
             </div>
             </div>
            
@@ -381,13 +383,15 @@
         <button class="modal-close" type="button">Закрыть</button> 
     </div>
 
-    <div class="modal modal-map" style="display:none;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzEx!5e0!3m2!1sru!2sua!4v1562000084215!5m2!1sru!2sua" width="960" height="562" frameborder="0" allowfullscreen></iframe>
+    <div class="modal modal-map">
+       <a class="button-map">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzEx!5e0!3m2!1sru!2sua!4v1562000084215!5m2!1sru!2sua" width="960" height="562" frameborder="0" allowfullscreen></iframe>
+        </a>
         <button class="modal-close" type="button">Закрыть</button>
     </div>
     
-    
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="js/main.js"></script>
+
+<script src="js/popup.js"></script>
+<script src="js/map.js"></script>
 </body>
 </html>
