@@ -332,47 +332,57 @@ i.fa-plus {
 }
 
 /* Slider */
-
-.slider-image {
-    position: relative;
-    top: -111px;
-    left: 87px;
+.sliders {
+    margin-bottom: 100px;
 }
 
-.slider-line {
-    position: relative;
+.slider-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider-image {
+    margin-top: -97px;
+}
+
+.slider-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-line:before {
+    content: "";
+    display: block;
     border: 1px solid #fff;
-    background: #fff;
-    width: 99px;
-    height: 8px;
-    top: -563px;
-    right: 502px;
-    float: right;
+    width: 100px;
+    height: 9px;
+    background: #ffff;
+    margin-top: -75px;
+    margin-left: 5px;
 }
 
 .slider-number {
     font-size: 180px;
     color: #fff;
     font-family: 'GilroyExtraBold';
-    position: absolute;
-    left: 328px;
-    top: -72px;
+    margin-top: -150px;
+}
+
+.slider-description {
+    margin-top: -141px;
+    margin-right: 37px;
 }
 
 .slider-title {
     font-size: 47px;
     font-family: 'GilroyExtraBold';
     width: 388px;
-    margin-top: 38px;
-    margin-left: 2px;    
 }
 
 .slider-text {
     font-family: "OpenSans-Light";
     width: 497px;
     line-height: 2em;
-    margin-top: -21px;
-    margin-left: -3px;
     letter-spacing: 0.01em;     
 }
 
@@ -441,14 +451,15 @@ i.fa-plus {
     font-family: 'OpenSans-Light'; 
 }
 
-.slide-container {
+/* Slide-radio button */
+/* .slide-container {
     display: flex;
-}
+} */
 
 .slides-switches {
     display: flex;
-    margin-top: -153px;
-    margin-left: 352px;
+    justify-content:flex-end;
+
 }
 
 .slides-switches li {
@@ -490,7 +501,7 @@ i.fa-plus {
 }
 
 .popular {
-    margin-bottom: 370px;
+    margin-bottom: 484px;
 }
 
 .popular-font {
@@ -508,10 +519,6 @@ i.fa-plus {
     padding-right: 25px;
     padding-left: 15px;
     margin-top: -7px;
-}
-
-.popular-item-update {
-    margin-top: -15px;
 }
 
 .popular-font:hover {
@@ -1034,19 +1041,6 @@ input:invalid {
   margin-bottom: 33px;
 }
 
-.map {
-    position: relative;
-}
-
-.map:after {
-    content: '';
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-}
-
 @keyframes bounce {
     0% {transform:translateY(-2000px);}
     70% {transform:translateY(30px);}
@@ -1074,5 +1068,17 @@ input:invalid {
     margin: 0;
 } 
 
+.map {
+    position: relative;
+}
+
+.map:after {
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
 
   
