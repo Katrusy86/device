@@ -1034,6 +1034,19 @@ input:invalid {
   margin-bottom: 33px;
 }
 
+.map {
+    position: relative;
+}
+
+.map:after {
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
 @keyframes bounce {
     0% {transform:translateY(-2000px);}
     70% {transform:translateY(30px);}
