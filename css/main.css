@@ -332,45 +332,49 @@ i.fa-plus {
 }
 
 /* Slider */
-.sliders {
-    margin-bottom: 100px;
+
+.slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .slider-item {
+    display: none;
+}
+
+.slider-item.active {
     display: flex;
-    justify-content: space-around;
 }
 
 .slider-image {
-    margin-top: -97px;
+    position: relative;
+    top: -90px;
+    right: 92px;
 }
 
-.slider-block {
-    display: flex;
-    justify-content: space-between;
+.slider-content {
+    position: relative;
+    top: -81px;
+    left: 40px;
 }
 
-.slider-line:before {
+.slider-content:before {
     content: "";
     display: block;
     border: 1px solid #fff;
     width: 100px;
     height: 9px;
     background: #ffff;
-    margin-top: -75px;
-    margin-left: 5px;
 }
 
 .slider-number {
     font-size: 180px;
     color: #fff;
     font-family: 'GilroyExtraBold';
-    margin-top: -150px;
-}
-
-.slider-description {
-    margin-top: -141px;
-    margin-right: 37px;
+    position: absolute;
+    top: -68px;
+    right: -13px;
 }
 
 .slider-title {
@@ -436,29 +440,25 @@ i.fa-plus {
     margin-top: 60px;
 }
 
-.slider-table {
+.slider-description {
     width: 457px;
 }
 
-.slider-table-column {
+.slider-column {
     font-size: 36px;
     font-weight: 100;
     letter-spacing: 0.1em;
 }
 
-.slider-table-cell {
+.slider-cell {
     font-size: 13px;
     font-family: 'OpenSans-Light'; 
 }
 
 /* Slide-radio button */
-/* .slide-container {
-    display: flex;
-} */
 
 .slides-switches {
-    display: flex;
-    justify-content:flex-end;
+    
 
 }
 
@@ -481,7 +481,7 @@ i.fa-plus {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -2px;
+    margin-left: -3px;
     margin-top: -3px;
 }
 
@@ -490,7 +490,9 @@ i.fa-plus {
     border-radius: 50%;
     width: 13px;
     height: 13px;
-    margin-right: 22px;
+    right: 59px;
+    top: 4px;
+    margin-right: 17px;
     position: relative;
 }
 
@@ -498,10 +500,6 @@ i.fa-plus {
 .row {
     margin-left: -15px;
     margin-right: -15px;
-}
-
-.popular {
-    margin-bottom: 484px;
 }
 
 .popular-font {
@@ -543,7 +541,7 @@ i.fa-plus {
 .services {
     height: 287px;
     background: #e5e5e5;
-    margin-bottom: 102px;
+    margin-top: 373px;
 }
 
 .service-header li {
@@ -660,6 +658,10 @@ i.fa-plus {
 }
 
 /* Company Brands */
+
+.brands {
+    margin-top: 100px;
+}
 
 .brands-items {
     margin: 0;
