@@ -1022,7 +1022,7 @@ i.fa-plus {
     margin-top: 12px;
 }
 
-input:invalid {
+input:invalid:not(:focus):not(:placeholder-shown) {
     background:rgba(237, 181, 181, 0.5);
 }
 
