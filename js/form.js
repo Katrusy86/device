@@ -39,7 +39,6 @@ form.addEventListener("submit", function(evt) {
     formIsInvalid = false;
 
     
-
     resetError(elements.name);
     if(!elements.name.value) {
         showError(elements.name, 'Значение не может быть пустым');
