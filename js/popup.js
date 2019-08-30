@@ -18,18 +18,18 @@ try {
     isStorageSupport=false;
 }
 
-// button.addEventListener ("click", function (evt) {
-//     evt.preventDefault();
-//     overflow.classList.add("in");
-//     popup.classList.add("modal-show");
+button.addEventListener ("click", function (evt) {
+    evt.preventDefault();
+    overflow.classList.add("in");
+    popup.classList.add("modal-show");
     
-//     if(storage){
-//         login.value = storage;
-//         email.focus();
-//     } else {
-//         login.focus();
-//     }
-// });
+    if(storage){
+        login.value = storage;
+        email.focus();
+    } else {
+        login.focus();
+    }
+});
 
 close.addEventListener ("click", function (evt) {
     evt.preventDefault();
