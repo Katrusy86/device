@@ -1,6 +1,9 @@
 /***************************
-** 9. ВАЛИДАЦИЯ ФОРМ
+* ВАЛИДАЦИЯ ФОРМ
 ****************************/
+var popup = document.querySelector(".modal-login");
+var login = popup.querySelector("[name=login]");
+var email = popup.querySelector("[name=email]");
 
 var formIsInvalid = false;
 
@@ -61,7 +64,6 @@ form.addEventListener("submit", function(evt) {
     if (formIsInvalid) {
         evt.preventDefault();
     } else {
-        alert('Все хорошо')
         evt.preventDefault();
         if(isStorageSupport) {
             localStorage.setItem("login", login.value);
