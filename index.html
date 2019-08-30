@@ -273,20 +273,20 @@
             <h2 class="visually-hidden">Сервис услуг</h2>
             <div class="service-header">
                 <ul class="service-button">   
-                    <li class="service-button-item">   
-                        <a class="service-button-link" href="">
+                    <li class="service-button-item active">   
+                        <span class="service-button-link">
                             <span class="service-button-text">Доставка</span>
-                        </a>
+                        </span>
                     </li>
                     <li class="service-button-item">                     
-                        <a class="service-button-link" href="">
+                        <span class="service-button-link">
                             <span class="service-button-text">Гарантия</span>
-                        </a>
+                        </span>
                     </li>
                     <li class="service-button-item">                     
-                        <a class="service-button-link" href="">
+                        <span class="service-button-link">
                             <span class="service-button-text">Кредит</span>
-                        </a>
+                        </span>
                     </li>
                 </ul>
             </div>
@@ -323,10 +323,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-            
         </div>
     </section>
 
@@ -484,13 +480,15 @@
         </div>
     
         <div class="modal modal-map">
-        <a class="button-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzEx!5e0!3m2!1sru!2sua!4v1562000084215!5m2!1sru!2sua" width="960" height="562" frameborder="0" allowfullscreen></iframe>
-            </a>
+            <div id="map"></div>
+            <!-- <a class="button-map"> -->
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzEx!5e0!3m2!1sru!2sua!4v1562000084215!5m2!1sru!2sua" width="960" height="562" frameborder="0" allowfullscreen></iframe> -->
+            <!-- </a> -->
             <button class="modal-close" type="button">Закрыть</button>
         </div>
     </div>
     
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApLJj5Kde6THT82NacDGCwdCnlRg55a8w&callback=initMap"></script>
     <script src="js/popup.js"></script>
     <script src="js/map.js"></script>
     <script src="js/slide.js"></script>

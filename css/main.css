@@ -597,6 +597,7 @@ button.button-link {
     position: relative;
     display: block;
     text-align: center;
+    cursor: pointer;
 }
   
 .service-button-link:before {
@@ -611,7 +612,8 @@ button.button-link {
     background: #f0c52e;
 }
   
-.service-button-link:hover:before {
+.service-button-link:hover:before,
+.service-button-item.active .service-button-link:before {
     height: 40px;
     width: 280px;
     background: #000000;
@@ -619,7 +621,8 @@ button.button-link {
 }
 
 
-.service-button-item:hover .service-button-link {
+.service-button-item:hover .service-button-link,
+.service-button-item.active .service-button-link {
     color: #f7e184;
 }
 .service-button-link:active {
@@ -1100,6 +1103,8 @@ button.button-link {
     position: fixed;
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.2);
     z-index: 1000;
+    width: 700px;
+    height: 400px;
 }
 
 .modal-map p {
@@ -1108,6 +1113,10 @@ button.button-link {
 
 .map {
     position: relative;
+}
+
+#map {
+    height: 100%;
 }
 
 .map:after {
