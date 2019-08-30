@@ -475,11 +475,6 @@ button.button-link {
 
 /* Slide-radio button */
 
-.slides-switches {
-    
-
-}
-
 .slides-switches li {
     margin: 0px;
     padding: 0px;
@@ -564,6 +559,14 @@ button.button-link {
 }
 
 .service-header li {
+    display: block;
+}
+
+.service-items {
+    display: none;
+}
+
+.service-items.active {
     display: block;
 }
 
