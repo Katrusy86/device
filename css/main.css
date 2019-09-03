@@ -1128,3 +1128,7 @@ button.button-link {
     position: absolute;
 }
   
+#smallmap {
+    width: 560px;
+    height: 222px;
+}
