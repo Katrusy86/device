@@ -24,21 +24,21 @@ function initMap() {
     });
 
     var marker = new google.maps.Marker({
-        position: {lat: 55.687222, lng: 37.529583},
-        map:map,
-        title: 'улица Строителей 15',
-      });
+        position: { lat: 55.687222, lng: 37.529583 },
+        map: map,
+        title: 'улица Строителей 15'
+    });
 
     var smallmap = new google.maps.Map(document.getElementById('smallmap'), {
-    zoom: 15,
-    center: {lat: 55.687222, lng: 37.529583},
-    disableDefaultUI: true
+      zoom: 15,
+      center: {lat: 55.687222, lng: 37.529583},
+      disableDefaultUI: true
     });
 
     var smallmarker = new google.maps.Marker({
         position: {lat: 55.687222, lng: 37.529583},
-        map:smallmap,
-        title: 'улица Строителей 15',
+        map: smallmap,
+        title: 'улица Строителей 15'
     });
         
   }
