@@ -804,9 +804,9 @@ button.button-link {
     padding-top: 42px;
 }
 
-.index-button + .index-button {
-    padding-top: 83px;
-    margin-left: 2px
+.index-button-last {
+    margin-top: 61px;
+    margin-left: 40px;
 }
 
 .button-width {
