@@ -58,8 +58,8 @@ body {
 }
 
 .header-logo {
-    margin-top: -5px;
-    margin-left: 61px;
+    margin-top: -10px;
+    margin-left: 58px;
 }
 
 .header-logo-name {
@@ -74,7 +74,7 @@ body {
     width: 1160px;
     height: 301px;
     background:#f7e296;
-    margin-top: -35px;
+    margin-top: -32px;
 }
 
 .header-logo-name:hover {
@@ -98,16 +98,16 @@ body {
     position: absolute;
     font-size: 17px;
     top: 40px;
-    left: 65px;
+    left: 63px;
     cursor: pointer;
 }
 .main-search {
     transition: all 0.5s ease;
     border-radius: 5px;
     position: relative;
-    padding-left: 64px;
-    padding-top: 38px;
-    margin-top: 14px;
+    padding-left: 99px;
+    padding-top: 35px;
+    margin-top: 12px;
 }
   
 .main-search-name {
@@ -116,8 +116,7 @@ body {
     background: #f7e296;
     outline: none;
     font-family: "OpenSans-Light";
-    font-size: 15px;
-    padding-left: 32px; 
+    font-size: 15px; 
     padding-bottom: 10px;
     width: 170px;
 }
@@ -166,17 +165,17 @@ body {
 }
 
 .user-navigation {
-    margin-top: 40px;
+    margin-top: 33px;
 }
 
 .user-menu {
-    margin-right: 59px;
+    margin-right: 60px;
     display: flex;
     list-style: none;
 }
 
 .user-item-update {
-    margin-right: 172px;
+    margin-right: 173px;
 }
 
 .user-menu li{
@@ -235,7 +234,7 @@ i.fa-plus {
 }
 
 .catalog-list { 
-    padding-left: 61px;
+    padding-left: 58px;
 }
 
 .dropdown {
@@ -302,11 +301,11 @@ i.fa-plus {
 }
 
 .side-menu li {
-    padding-left: 40px;
+    padding-left: 38px;
 }
 
 .side-item-update {
-    padding-left: 64px;
+    padding-left: 67px;
 }
 
 .side-item:focus,
@@ -354,9 +353,9 @@ i.fa-plus {
 
 .slide-image {
     position: relative;
-    margin-top: -90px;
-    margin-left: -92px;
-    width: 500px;
+    margin-top: -112px;
+    margin-left: -140px;
+    width: 637px;
     text-align: center;
 }
 
@@ -397,6 +396,8 @@ i.fa-plus {
     font-size: 47px;
     font-family: 'GilroyExtraBold';
     width: 388px;
+    margin-top: 33px;
+    margin-left: 2px
 }
 
 .slide-title-last {
@@ -406,9 +407,11 @@ i.fa-plus {
 
 .slide-text {
     font-family: "OpenSans-Light";
-    width: 497px;
+    width: 495px;
     line-height: 2em;
-    letter-spacing: 0.01em;     
+    letter-spacing: 0.01em;
+    margin-top: -22px;
+    margin-right: 4px;
 }
 
 .button {
@@ -467,12 +470,13 @@ button.button-link {
 }
 
 .slide-button {
-    margin-bottom: 66px;
-    margin-top: 66px;
+    margin-top: 55px;
+    margin-left: 3px;
 }
 
 .slide-description {
     width: 457px;
+    margin-top: 73px;
 }
 
 .slide-column {
@@ -525,7 +529,7 @@ button.button-link {
     border-radius: 50%;
     width: 14px;
     height: 14px;
-    right: 59px;
+    right: 103px;
     top: 4px;
     margin-right: 17px;
     position: relative;
@@ -534,7 +538,7 @@ button.button-link {
 
 /* Popular items */
 .popular {
-    margin-top: 80px;
+    margin-top: 110px;
 }
 
 .clearfix:after {
@@ -587,7 +591,7 @@ button.button-link {
 .services {
     height: 287px;
     background: #e5e5e5;
-    margin-top: 140px;
+    margin-top: 160px;
 }
 
 .service-header li {
@@ -605,14 +609,14 @@ button.button-link {
 .service-button {
     padding: 0;
     margin: 0;
-    margin-top: 94px;
+    margin-top: 97px;
 }
 
 .service-header {
     float: left;
     width: 285px;
     position: relative;
-    margin-top: -100px;
+    margin-top: -105px;
 }
 
 .service-button-item {
@@ -620,7 +624,7 @@ button.button-link {
 }
 
 .service-button-item {
-    margin-top: 50px;
+    margin-top: 49px;
 }
 
 .service-button-link {
@@ -692,7 +696,7 @@ button.button-link {
 
 .delivery {
     float: left;
-    margin-left: 124px;
+    margin-left: 120px;
 }
 
 .delivery-title {
@@ -705,7 +709,7 @@ button.button-link {
     width: 433px;
     line-height: 2.1em;
     margin-top: -15px;
-    margin-left: -4px
+    margin-left: -5px
 }
 
 .delivery-image {
@@ -717,7 +721,7 @@ button.button-link {
 /* Company Brands */
 
 .brands {
-    margin-top: 100px;
+    margin-top: 94px;
 }
 
 .brands-items {
@@ -770,6 +774,13 @@ button.button-link {
     font-family: "OpenSans-Light";
     width: 477px;
     line-height: 1.9em;
+    margin-left: -1px;
+    margin-top: 3px;
+}
+
+.info-text:nth-child(2) {
+    margin-top: 35px;
+    margin-left: -3px;
 }
 
 .info-slide {
@@ -780,17 +791,22 @@ button.button-link {
 }
 
 .info-items {
-    margin-top: 60px;
+    margin-top: 79px;
     padding: 0;
-    padding-left: 24px; 
+    padding-left: 34px; 
 }
 
 .info-items li {
-    padding-bottom: 27px;
+    padding-bottom: 21px;
 }
 
 .index-button {
-    padding-top: 70px;
+    padding-top: 42px;
+}
+
+.index-button + .index-button {
+    padding-top: 83px;
+    margin-left: 2px
 }
 
 .button-width {
@@ -808,8 +824,13 @@ button.button-link {
 
 .contact-text {
     width: 515px;
-    padding-bottom: 40px;
+    padding-bottom: 28px;
 }
+
+.info-line {
+    margin-right: 43px;
+}
+
 
 
 /* Footer */
@@ -817,6 +838,7 @@ button.button-link {
 .footer {
     background: #464646;
     padding-bottom: 80px;
+    margin-top: 90px;
 }
 
 .footer-user {
@@ -830,6 +852,7 @@ button.button-link {
 .footer-header-block {
     display: flex;
     justify-content: space-between;
+    margin-top: 18px;
 }
 
 .logo-footer:focus,
@@ -845,6 +868,7 @@ button.button-link {
 .footer-user-menu {
     list-style: none;
     display: inline-flex;
+    margin-right: 44px;
 }
 
 .footer-user-menu li {
@@ -885,6 +909,10 @@ button.button-link {
     color: #fff;
 }
 
+.footer-address-block {
+    margin-left: 7px;
+}
+
 .footer-side-item {
     font-size: 18px;
     font-family: 'GilroyExtraBold';
@@ -898,6 +926,10 @@ button.button-link {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.footer-side-menu-block {
+    margin-right: 33px;
 }
 
 .footer-side-menu li {
@@ -922,8 +954,12 @@ button.button-link {
     color: #fff;
 }
 
+.footer-phone-block {
+    margin-right: 44px;
+}
+
 .footer-social {
-    padding-top: 66px;
+    padding-top: 78px;
     display: flex;
     justify-content: space-between;
 }
@@ -938,13 +974,15 @@ button.button-link {
 }
 
 .social-buttons {
-    margin: 0;
-    padding: 0; 
+    margin-top: -14px;
+    margin-left: -96px;
     list-style: none;
 }
 
 .social-buttons li {
     display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 .social-buttons li + li {
@@ -966,7 +1004,8 @@ button.button-link {
 }
 
 .copyright {
-    margin: 0;
+    margin-top: -16px;
+    margin-right: 41px;
     cursor: pointer;
     transition: all 0.5s ease;
 }
