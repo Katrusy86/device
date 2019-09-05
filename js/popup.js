@@ -1,5 +1,3 @@
-
-     
 var button = document.querySelector(".button-active");
 var popup = document.querySelector(".modal-login");
 var close = popup.querySelector(".modal-close");

@@ -1,6 +1,3 @@
-/***************************
-* ВАЛИДАЦИЯ ФОРМ
-****************************/
 var popup = document.querySelector(".modal-login");
 var login = popup.querySelector("[name=login]");
 var email = popup.querySelector("[name=email]");
@@ -29,9 +26,6 @@ function showModalError() {
     popup.classList.remove("modal-error");
     popup.classList.add("modal-error");
 }
-
-
-
 
 form.addEventListener("submit", function(evt) {
     var elements = form.elements;

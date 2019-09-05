@@ -52,6 +52,18 @@ body {
     overflow: hidden;
 }
 
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
 /* Header */
 .main-header {
     margin-top: 20px;
@@ -101,6 +113,7 @@ body {
     left: 63px;
     cursor: pointer;
 }
+
 .main-search {
     transition: all 0.5s ease;
     border-radius: 5px;
@@ -116,7 +129,8 @@ body {
     background: #f7e296;
     outline: none;
     font-family: "OpenSans-Light";
-    font-size: 15px; 
+    font-size: 15px;
+    margin: 0; 
     padding-bottom: 10px;
     width: 170px;
 }
@@ -151,8 +165,7 @@ body {
 }
 
 .main-search-name:focus + .act-search {
-    display: block;
-    
+    display: block;    
 }
   
 .act-search:hover {
@@ -172,14 +185,16 @@ body {
     margin-right: 60px;
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.user-item-update {
-    margin-right: 173px;
+.user-menu li {
+    margin-right: 55px;
 }
 
-.user-menu li{
-    padding-left: 40px;
+ .user-menu-item:nth-of-type(2) {
+    margin-left: 149px;
 }
 
 .user-item {
@@ -241,8 +256,7 @@ i.fa-plus {
     display: flex;
     justify-content: space-between;
     margin-left: 54px;
-    margin-right: 540px;
-    
+    margin-right: 540px;    
 }
 
 .hidden {
@@ -278,7 +292,6 @@ i.fa-plus {
     opacity: 0.3;
 }
 
-
 .catalog-menu-title {
     font-size: 15px;
     font-family: 'OpenSans-Light';
@@ -301,11 +314,11 @@ i.fa-plus {
 }
 
 .side-menu li {
-    padding-left: 38px;
+    margin-left: 40px;
 }
 
-.side-item-update {
-    padding-left: 67px;
+.side-menu-item:nth-of-type(3) {
+    margin-left: 109px;
 }
 
 .side-item:focus,
@@ -363,12 +376,6 @@ i.fa-plus {
     max-width: 100%;
 }
 
-.slide-image-last {
-    position: relative;
-    top: 24px;
-    left: 91px;
-}
-
 .slide-content {
     position: relative;
     margin-top: -81px;
@@ -397,12 +404,13 @@ i.fa-plus {
     font-family: 'GilroyExtraBold';
     width: 388px;
     margin-top: 33px;
-    margin-left: 2px
+    margin-left: 2px;
+    position: relative;
 }
 
-.slide-title-last {
-    width: 504px;
-    position: relative
+.slide-title-item {
+    width: 500px;
+    position: relative;
 }
 
 .slide-text {
@@ -420,7 +428,7 @@ i.fa-plus {
 
 button.button-link {
     border: none;
-    background-color: transparent;
+    background: none;
 }
 
 .button-link {
@@ -477,6 +485,7 @@ button.button-link {
 .slide-description {
     width: 457px;
     margin-top: 73px;
+    margin-bottom: 100px;
 }
 
 .slide-column {
@@ -498,7 +507,7 @@ button.button-link {
     padding: 0;
     right: 0;
     list-style: none;
-    bottom: 150px;
+    bottom: 245px;
 }
 
 .slides-switches li {
@@ -535,22 +544,7 @@ button.button-link {
     position: relative;
 }
 
-
 /* Popular items */
-.popular {
-    margin-top: 110px;
-}
-
-.clearfix:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
-.row {
-    margin-left: -15px;
-    margin-right: -15px;
-}
 
 .popular-font {
     border: 1px solid #f7e296;
@@ -656,15 +650,14 @@ button.button-link {
     margin-top: -20px;
 }
 
-
 .service-button-item:hover .service-button-link,
 .service-button-item.active .service-button-link {
     color: #f7e184;
 }
+
 .service-button-link:active {
     color: #f7e184;
 }
-
 
 .service-button-link {
     position: relative;
@@ -766,8 +759,7 @@ button.button-link {
 }
 
 .info-header {
-    font-size: 47px;
-    
+    font-size: 47px;    
 }
 
 .info-text {
@@ -804,7 +796,7 @@ button.button-link {
     padding-top: 42px;
 }
 
-.index-button-last {
+.info-line-button {
     margin-top: 61px;
 }
 
@@ -829,8 +821,6 @@ button.button-link {
 .info-line {
     margin-right: 43px;
 }
-
-
 
 /* Footer */
 
@@ -1076,7 +1066,6 @@ button.button-link {
     animation-duration: 0.6s;
 }
 
-
 .modal-close {
     position: absolute;
     top: 20px;
@@ -1121,8 +1110,7 @@ button.button-link {
     margin-top: 50px;
 }
 
-.login-form input[type="text"],
-.login-form input[type="email"],
+.login-form .base-form-control,
 .login-icon-text {
     width: 360px;
     padding: 19px 15px;
@@ -1166,9 +1154,8 @@ button.button-link {
     background:rgba(237, 181, 181, 0.5);
 }
 
-
-
 /* Pop-up map */
+
 .modal-map {
     position: fixed;
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.2);
