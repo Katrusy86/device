@@ -2,7 +2,7 @@
 
 ---
 
-[absorbed-drop.surge.sh]()
+[Просмотр приложения](absorbed-drop.surge.sh)
 
 ---
 
