@@ -254,9 +254,7 @@ i.fa-plus {
 
 .dropdown {
     display: flex;
-    justify-content: space-between;
-    margin-left: 54px;
-    margin-right: 540px;    
+    margin-left: 15px;    
 }
 
 .hidden {
@@ -265,19 +263,23 @@ i.fa-plus {
     position: absolute;
     z-index: 10;
     margin-left: -58px;
-    padding-bottom: 37px;
     display: none;
 }
 
-.dropdown a {
-    color:#000;
-    padding: 6px;
-    text-decoration: none;
-    display: block;
+.dropdown-list {
+    margin-top: 35px;
 }
 
-.dropdown-child {
-    margin-top: 35px;
+.dropdown-list li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.dropdown-list-item a {
+    color: #000;
+
 }
 
 .catalog-list:hover .hidden {
@@ -770,7 +772,7 @@ button.button-link {
     margin-top: 3px;
 }
 
-.info-text:nth-child(2) {
+.info-text:nth-chlist) {
     margin-top: 35px;
     margin-left: -3px;
 }
