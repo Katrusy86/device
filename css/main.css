@@ -1,27 +1,41 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+    
+    }
 
 @font-face {
     font-family: "Gilroy";
 	src: url('../fonts/gilroy/Gilroylight.ttf') format('truetype');
+    src: url('../fonts/gilroy/gilroylight.woff') format('woff');
+    src: url('../fonts/gilroy/gilroylight.woff2') format('woff2');
     font-style: normal;
-}   
+}
 
 @font-face {
     font-family: "GilroyExtraBold";
 	src: url('../fonts/gilroy/Gilroyextrabold.ttf') format('truetype');
+    src: url('../fonts/gilroy/gilroyextrabold.woff') format('woff');
+    src: url('../fonts/gilroy/gilroyextrabold.woff2') format('woff2');
     font-style: normal;
 } 
 
 @font-face {
     font-family: "OpenSans-Light";
-	src: url('../fonts/open_sans/open_sans/OpenSans-Light.ttf') format('truetype');
+    src: url('../fonts/open_sans/open_sans/OpenSans-Light.ttf') format('truetype');
+    src: url('../fonts/open_sans/open_sans/opensanslight.woff') format('woff');
+    src: url('../fonts/open_sans/open_sans/opensanslight.woff2') format('woff2');
     font-style: normal;
 } 
 
 @font-face {
     font-family: "OpenSans-Regular";
 	src: url('../fonts/open_sans/open_sans/OpenSans-Regular.ttf') format('truetype');
+    src: url('../fonts/open_sans/open_sans/opensans.woff') format('woff');
+    src: url('../fonts/open_sans/open_sans/opensans.woff2') format('woff2');  
     font-style: normal;
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "GilroyExtraBold";
@@ -383,13 +397,13 @@ i.fa-plus {
     margin-top: -81px;
 }
 
-.slide-content:before {
+.slide-content::before {
     content: "";
     display: block;
     border: 1px solid #fff;
     width: 100px;
     height: 9px;
-    background: #ffff;
+    background: rgba(249, 249, 249, 1);
 }
 
 .slide-number {
@@ -404,14 +418,14 @@ i.fa-plus {
 .slide-title {
     font-size: 47px;
     font-family: 'GilroyExtraBold';
-    width: 388px;
+    width: 401px;
     margin-top: 33px;
     margin-left: 2px;
     position: relative;
 }
 
 .slide-title-item {
-    width: 500px;
+    width: 509px;
     position: relative;
 }
 
@@ -485,9 +499,13 @@ button.button-link {
 }
 
 .slide-description {
-    width: 457px;
+    width: 434px;
     margin-top: 73px;
     margin-bottom: 100px;
+}
+
+.slide-width {
+    width: 345px;
 }
 
 .slide-column {
@@ -958,7 +976,7 @@ button.button-link {
 .footer-line:before {
     content: "";
     display: block;
-    border:1px solid #000;
+    border:1px solid rgba(0, 0, 0, 0.1);
     width: 80px;
     height: 7px;
     background:#ffc600 ;
@@ -1191,4 +1209,3 @@ button.button-link {
     width: 560px;
     height: 222px;
 }
-
