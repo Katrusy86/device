@@ -8,6 +8,7 @@
 	src: url('../fonts/gilroy/Gilroylight.ttf') format('truetype');
     src: url('../fonts/gilroy/gilroylight.woff') format('woff');
     src: url('../fonts/gilroy/gilroylight.woff2') format('woff2');
+    /* src: url('../fonts/gilroy/Gilroylight.eot') format('eot'); */
     font-style: normal;
 }
 
@@ -16,7 +17,9 @@
 	src: url('../fonts/gilroy/Gilroyextrabold.ttf') format('truetype');
     src: url('../fonts/gilroy/gilroyextrabold.woff') format('woff');
     src: url('../fonts/gilroy/gilroyextrabold.woff2') format('woff2');
+    /* src: url('../fonts/gilroy/Gilroyextrabold.eot') format('eot'); */
     font-style: normal;
+    font-weight: bold;
 } 
 
 @font-face {
@@ -24,6 +27,7 @@
     src: url('../fonts/open_sans/open_sans/OpenSans-Light.ttf') format('truetype');
     src: url('../fonts/open_sans/open_sans/opensanslight.woff') format('woff');
     src: url('../fonts/open_sans/open_sans/opensanslight.woff2') format('woff2');
+    /* src: url('../fonts/open_sans/open_sans/OpenSans-Light.eot') format('eot'); */
     font-style: normal;
 } 
 
@@ -32,6 +36,7 @@
 	src: url('../fonts/open_sans/open_sans/OpenSans-Regular.ttf') format('truetype');
     src: url('../fonts/open_sans/open_sans/opensans.woff') format('woff');
     src: url('../fonts/open_sans/open_sans/opensans.woff2') format('woff2');  
+    /* src: url('../fonts/open_sans/open_sans/OpenSans-Regular.eot') format('eot'); */
     font-style: normal;
 }
 
@@ -1115,7 +1120,7 @@ button.button-link {
     left: 12px;
     width: 26px;
     height: 2px;
-    background-color: #ffff;
+    background-color: rgba(249, 249, 249, 1);
 }
 
 .modal-close::before {
