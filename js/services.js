@@ -9,17 +9,10 @@
         services[nextIndex].classList.add('active'); // показать
     }
 
-    function updateButtons(nextIndex) {
-        var ServiceButton = document.querySelectorAll('.service-button .service-button-item');
-
-        ServiceButton[prevIndex].classList.remove('active'); // скрыть
-        ServiceButton[nextIndex].classList.add('active'); // показать
-    }
-
 
     var serviceButtons = document.querySelectorAll('.service-button-link');
-
-    serviceButtons.forEach((item, index) => {
+    
+    serviceButtons.forEach(function(item, index) {
 
         item.onclick = function(e) {
 
