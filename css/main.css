@@ -751,7 +751,23 @@ button.button-link {
     list-style: none;
 }
 
-.brands-image-01 {
+.brand-image {
+    margin-right: 30px;
+    width: 260px;
+    height: 100px;
+    opacity: 0.2;
+    filter: grayscale(100%);
+    transition: 250ms ease-in; 
+}
+
+.brand-image:focus,
+.brand-image:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+.brands-01 {
     background: url(../img/logo-1.png);
     opacity: 0.2;
     width: 260px;
@@ -759,13 +775,13 @@ button.button-link {
     transition: 250ms ease-in;
 }
 
-.brands-image-01:focus,
-.brands-image-01:hover {
+.brands-01:focus,
+.brands-01:hover {
     background: url(../img/logo-1IE.png);
     opacity: 1;
 }
 
-.brands-image-02 {
+.brands-02 {
     background: url(../img/logo-2.png);
     opacity: 0.2;
     width: 260px;
@@ -773,13 +789,13 @@ button.button-link {
     transition: 250ms ease-in;
 }
 
-.brands-image-02:focus,
-.brands-image-02:hover {
+.brands-02:focus,
+.brands-02:hover {
     background: url(../img/logo-2IE.png);
     opacity: 1;
 }
 
-.brands-image-03 {
+.brands-03 {
     background: url(../img/logo-3.png);
     opacity: 0.2;
     width: 260px;
@@ -787,13 +803,13 @@ button.button-link {
     transition: 250ms ease-in;
 }
 
-.brands-image-03:focus,
-.brands-image-03:hover {
+.brands-03:focus,
+.brands-03:hover {
     background: url(../img/logo-3IE.png);
     opacity: 1;
 }
 
-.brands-image-04 {
+.brands-04 {
     background: url(../img/logo-4.png);
     opacity: 0.2;
     width: 260px;
@@ -801,10 +817,11 @@ button.button-link {
     transition: 250ms ease-in;
 }
 
-.brands-image-04:focus,
-.brands-image-04:hover {
+.brands-04:focus,
+.brands-04:hover {
     background: url(../img/logo-4IE.png);
     opacity: 1;
+}    
 }
 
 /* Information section */
