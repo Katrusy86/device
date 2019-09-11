@@ -201,10 +201,8 @@ body {
 }
 
 .user-menu {
-    margin-right: 60px;
     display: flex;
     list-style: none;
-    margin: 0;
     padding: 0;
 }
 
@@ -1270,4 +1268,101 @@ button.button-link {
 #smallmap {
     width: 560px;
     height: 222px;
+}
+
+/* Index-catalog page*/
+
+.user-menu-name {
+    margin-right: 10px;
+}
+
+.main-overlay-catalog {
+    height: 183px;
+}
+
+.user-item-catalog {
+    opacity: 0.3;
+}
+
+.user-item-catalog:hover {
+    opacity: 1;
+}
+
+.user-catalog li {
+    margin-right: 47px;
+}
+
+.user-menu-catalog:nth-of-type(2) {
+    margin-left: 30px;
+}
+
+/* Product cards */
+.page-title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    min-height: 47px;
+}
+
+.breadcrumbs {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 45px;
+    min-height: 14px;
+}
+
+.filters {
+   width: 463px;
+   min-height: 1289px;
+}
+
+.catalog {
+   width: 758px;
+   min-height: 1009px;
+}
+
+.catalog-column {
+   display: flex;
+   justify-content: space-between;
+}
+
+.catalog-item {
+   width: 359px;
+   min-height: 383px;
+   margin-bottom: 40px;
+   margin-right: 40px;
+   background-color: transparent; /* фон карточкам задаем прозрачный*/
+   box-shadow: inset 0 0 0 2px purple; /*задаем цветную тень*/
+   
+}
+
+.catalog-item-title {
+   font-size: 18px;
+   font-family: 'GilroyExtraBold';
+   margin-right: 50px;
+}
+
+.catalog-item-price {
+   font-family: 'Gilroy';
+   font-size: 16px;
+}
+
+.catalog-item-list {
+   display: flex;
+   flex-wrap: wrap; /*перенос элементов на новую строку*/
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   /* margin-bottom: 25px; */
+}
+
+.pagination-list {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   min-height: 70px;
+}
+
+.footer-user {
+    color: #fff;
 }
