@@ -2,7 +2,7 @@
 
 ---
 
-[Просмотр приложения](https://absorbed-drop.surge.sh)
+[Просмотр приложения](https://superb-office.surge.sh)
 
 ---
 
