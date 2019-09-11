@@ -1298,22 +1298,66 @@ button.button-link {
 
 /* Product cards */
 .page-title {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 30px;
-    min-height: 47px;
+    font-size: 30px;
+    line-height: 42px;
+    margin: 45px 62px 30px;
 }
 
 .breadcrumbs {
+    list-style: none;
     padding: 0;
     margin: 0;
     margin-bottom: 45px;
     min-height: 14px;
 }
 
+.breadcrumbs a {
+    color: #000; 
+    opacity: 0.3;
+    font-family: "OpenSans-Light"  
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+    opacity: 0.6;
+}
+
+.breadcrumbs a:active {
+    opacity: 0.1;
+}
+
 .filters {
    width: 463px;
    min-height: 1289px;
+}
+
+.filter fieldset {
+    border: none;
+}
+
+.filter legend {
+    font-size: 18px;
+    font-family: 'GilroyExtraBold';
+}
+
+.filter ul {
+    list-style: none;
+    line-height: 18px;
+}
+
+.filter-input + label {
+    font-family: 'OpenSans-Light';
+    font-size: 14px;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+    opacity:0.6;
+}
+
+.filter-input:disabled + label {
+    color: #000;
+    opacity: 0.25;
 }
 
 .catalog {
@@ -1326,25 +1370,44 @@ button.button-link {
    justify-content: space-between;
 }
 
+.catalog-item-list {
+    list-style: none;
+}
+
 .catalog-item {
    width: 359px;
    min-height: 383px;
    margin-bottom: 40px;
-   margin-right: 40px;
-   background-color: transparent; /* фон карточкам задаем прозрачный*/
-   box-shadow: inset 0 0 0 2px purple; /*задаем цветную тень*/
-   
+   margin-right: 13px;
+   background-color: #f8f8f8; /* фон карточкам задаем прозрачный*/
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*задаем цветную тень*/   
+}
+
+.catalog-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.catalog-item a {
+    color: #000;
+}
+
+.catalog-item-image {
+    margin: 0px;
+}
+
+.catalog-item h3 {
+   font-size: 18px;
+   font-family: 'GilroyExtraBold';
 }
 
 .catalog-item-title {
-   font-size: 18px;
-   font-family: 'GilroyExtraBold';
-   margin-right: 50px;
+    width: 245px;
 }
 
 .catalog-item-price {
    font-family: 'Gilroy';
    font-size: 16px;
+   padding-left: 50px;
 }
 
 .catalog-item-list {
@@ -1354,6 +1417,10 @@ button.button-link {
    margin: 0;
    list-style: none;
    /* margin-bottom: 25px; */
+}
+
+.catalog-item-price .button {
+
 }
 
 .pagination-list {
