@@ -908,7 +908,6 @@ button.button-link {
 .footer {
     background: #464646;
     padding-bottom: 80px;
-    margin-top: 90px;
 }
 
 .footer-user {
@@ -1298,23 +1297,32 @@ button.button-link {
 
 /* Product cards */
 .page-title {
-    font-size: 30px;
+    font-size: 47px;
+    font-family: 'GilroyExtraBold';
     line-height: 42px;
-    margin: 45px 62px 30px;
-}
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    margin-top: 44px;
+    margin-left: 55px;
+}    
 
 .breadcrumbs {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-bottom: 45px;
-    min-height: 14px;
+    margin-bottom: 50px;
+    margin-left: 55px;
 }
 
 .breadcrumbs a {
     color: #000; 
     opacity: 0.3;
-    font-family: "OpenSans-Light"  
+    font-family: "OpenSans-Light"      
+}
+
+ul.breadcrumbs li {
+    display: inline;
 }
 
 .breadcrumbs a:hover,
@@ -1326,9 +1334,32 @@ button.button-link {
     opacity: 0.1;
 }
 
+.arrow-icon {
+    padding: 1px 8px;
+}
+
 .filters {
-   width: 463px;
-   min-height: 1289px;
+   width: 633px;
+   background: rgba(0, 0, 0, 0.08);
+}
+
+.filter-header {
+    font-family: 'GilroyExtraBold';
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 69px;
+    padding-left: 390px;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.filter {
+    padding-left: 390px;
 }
 
 .filter fieldset {
@@ -1338,11 +1369,27 @@ button.button-link {
 .filter legend {
     font-size: 18px;
     font-family: 'GilroyExtraBold';
+    border-top: 2px solid #000;
+    padding-top: 15px;
+    width: 170px;
+}
+
+.filter-slider {
+    width: 170px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .filter ul {
     list-style: none;
     line-height: 18px;
+    padding: 0px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.filter-option {
+    margin-bottom: 18px;
 }
 
 .filter-input + label {
@@ -1360,14 +1407,59 @@ button.button-link {
     opacity: 0.25;
 }
 
-.catalog {
-   width: 758px;
-   min-height: 1009px;
-}
-
 .catalog-column {
    display: flex;
-   justify-content: space-between;
+}
+
+.sorting {
+    height: 70px;
+    background:rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+}
+
+.sorting-header {
+    font-family: 'GilroyExtraBold';
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding-left: 75px;
+    padding-top: 25px; 
+}
+
+.sorting-option li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 27px;
+}
+
+.sorting-option {
+    padding-top: 14px;
+}
+
+.sorting-title {
+    color: #000;
+    font-size: 14px;
+    font-family: 'OpenSans-Regular';
+    opacity: 0.3;
+}
+
+.sorting-title:focus,
+.sorting-title:hover {
+    opacity: 0.6;
+}
+
+.sorting-title:active {
+    opacity: 1;
+}
+
+.sorting-icons {
+    padding-top: 25px;
+    margin-right: 385px;
 }
 
 .catalog-item-list {
@@ -1378,7 +1470,7 @@ button.button-link {
    width: 359px;
    min-height: 383px;
    margin-bottom: 40px;
-   margin-right: 13px;
+   margin-right: 55px;
    background-color: #f8f8f8; /* фон карточкам задаем прозрачный*/
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*задаем цветную тень*/   
 }
@@ -1407,7 +1499,7 @@ button.button-link {
 .catalog-item-price {
    font-family: 'Gilroy';
    font-size: 16px;
-   padding-left: 50px;
+   text-align: left;
 }
 
 .catalog-item-list {
@@ -1416,11 +1508,9 @@ button.button-link {
    padding: 0;
    margin: 0;
    list-style: none;
-   /* margin-bottom: 25px; */
-}
-
-.catalog-item-price .button {
-
+   padding-left: 85px;
+   margin-top: 40px;
+   padding-right: 140px;
 }
 
 .pagination-list {
@@ -1428,6 +1518,24 @@ button.button-link {
    margin: 0;
    list-style: none;
    min-height: 70px;
+}
+
+.pagination-item a {
+    color: #000;
+    opacity: 0.3 ;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus {
+    opacity: 0.6;
+}
+
+.pagination-item a:active {
+    opacity: 1;
+}
+
+.pagination-item-current a {
+    opacity: 1;
 }
 
 .footer-user {
