@@ -159,7 +159,15 @@
                         <input class="filter-input filter-input-radio" type="radio" name="product-group" value="No">
                         <label for="no">Нет</label>
                     </li>
-                </ul> 
+                    <!-- <li>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Плитка
+                        </label>
+                    </div>
+                    </li>
+                </ul>  -->
             </fieldset>
             <div class="slide-button">
                 <div class="button">
@@ -180,8 +188,8 @@
                     <li><a href="#" class="sorting-title">По популярности</a></li>
                 </ul>
                 <div class="sorting-icons">
-                    <a><img src="img/catalog/icon-up-dir.jpg"></a>
-                    <a><img src="img/catalog/icon-down-dir.jpg"></a>
+                    <a href="#" class="sorting-arrow-icon"><img src="img/catalog/icon-up.png"></a>
+                    <a href="#" class="sorting-arrow-icon"><img src="img/catalog/icon-down-dir.png"></a>
 `               </div>
             </div>
             <ul class="catalog-item-list">
@@ -224,12 +232,15 @@
                     </a>
                 </li>                    
             </ul>
-            <ul class="pagination-list">
-                <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
-                <li class="pagination-item"><a href="#">2</a></li>
-                <li class="pagination-item"><a href="#">3</a></li>
-
-            </ul>
+            <div class="pagination">
+                <ul class="pagination-list">
+                    <li class="pagination-slide"><a href="#" class="pagination-title">Назад</a></li>
+                    <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
+                    <li class="pagination-item"><a href="#">2</a></li>
+                    <li class="pagination-item"><a href="#">3</a></li>
+                    <li class="pagination-slide"><a href="#" class="pagination-title">Вперед</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
