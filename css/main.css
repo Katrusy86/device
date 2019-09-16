@@ -129,7 +129,7 @@ body {
 .main-search .fas {
     position: absolute;
     font-size: 17px;
-    top: 40px;
+    top: 37px;
     left: 63px;
     cursor: pointer;
 }
@@ -243,7 +243,7 @@ body {
 }
 
 i.fa-plus {
-    opacity: 0.5;
+    opacity: 0.3;
     font-size: 19px;
     margin-left: 4px;
 }
@@ -1339,7 +1339,7 @@ ul.breadcrumbs li {
 }
 
 .filters {
-   width: 55%;
+   width: 53%;
    background: rgba(0, 0, 0, 0.08);
 }
 
@@ -1372,6 +1372,52 @@ ul.breadcrumbs li {
     border-top: 2px solid #000;
     padding-top: 15px;
     width: 170px;
+}
+
+.widget__progress-bar {
+    margin-top: 25px;
+}
+
+.widget__progress-bar-progress {
+    height: 3px;
+    background: #dbdbdb;
+    width: 170px;
+    margin-bottom: 30px;
+}
+
+.widget__progress-bar {
+    position: relative;
+}
+
+.widget__progress-bar-control {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    margin-top: -10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.widget__progress-bar-control:before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: 1px solid #ababab;
+    background: #ababab;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -2px;
+    margin-top: -2px;
+}
+
+.widget__progress-bar-active-bar {
+    height: 50%;
+    background: #91c92f;
 }
 
 .filter-slider {
@@ -1540,4 +1586,45 @@ ul.breadcrumbs li {
 
 .footer-user {
     color: #fff;
+}
+
+
+
+.form-check-input {
+    display: none;
+}
+
+.form-check-input.checked, 
+.form-check-label:after {
+                content: '';
+                width: 7px;
+                height: 7px;
+                border-radius: 50%;
+                position: absolute;
+                top: 10px;
+                right: 43px;
+                background: #000;
+}
+
+.form-check {
+    padding-left: 0;
+}
+
+.form-check-label {
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+    font-family: "PN_light";
+    color: #4e4e4e;
+}
+
+.form-check-label:before {
+        content: '';
+        width: 21px;
+        height: 21px;
+        border-radius: 50%;
+        border: 3px solid #000;
+        margin-right: 10px;
+        float: left;
+        margin-top: 3px;
 }
