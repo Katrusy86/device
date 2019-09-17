@@ -1485,7 +1485,7 @@ ul.breadcrumbs li {
 
 .sorting-option {
     padding-top: 11px;
-    margin-left: -255px;
+    margin-left: -200px;
 }
 
 .sorting-title {
@@ -1498,6 +1498,10 @@ ul.breadcrumbs li {
 .sorting-title:focus,
 .sorting-title:hover {
     opacity: 0.6;
+}
+
+.sorting-title-current {
+    opacity: 1;
 }
 
 .sorting-title:active {
@@ -1519,6 +1523,10 @@ ul.breadcrumbs li {
 }
 
 .sorting-arrow-icon:active {
+    opacity: 1;
+}
+
+.sorting-arrow-icon__current {
     opacity: 1;
 }
 
@@ -1572,28 +1580,59 @@ ul.breadcrumbs li {
 
 .pagination {
     height: 70px;
-    width: 758px;
+    width: 750px;
     background:rgba(0, 0, 0, 0.08);
-    margin: auto;
     margin-bottom: 80px;
-    margin-top: 34px;
     margin-left: 70px;
+}
+
+.pagination-block {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 24px;
 }
 
 .pagination-list {
    padding: 0;
    margin: 0;
-   list-style: none; 
-   display: flex;
-   justify-content: space-around;
+   list-style: none;
+   display: inline-flex; 
 }
 
-.pagination-title {
+.pagination-slider-item {
     font-size: 16px;
     font-family: 'GilroyExtraBold';
     text-transform: uppercase;
     color: #000;
     letter-spacing: 0.2em;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.pagination-slider-item:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -30px;
+}
+
+.pagination-slider-item:hover:before {
+    height: 70px;
+    width: 136px;
+    background:rgba(0, 0, 0, 0.08);
+    margin-top: -22px;
+}
+
+.pagination-slider-title {
+    position: relative;
+    z-index: 1;
+}
+
+.pagination-slider-title:active {
+    opacity: 0.3;
 }
 
 .pagination-item a {
@@ -1601,7 +1640,7 @@ ul.breadcrumbs li {
     font-size: 16px;
     font-family: 'GilroyExtraBold';
     opacity: 0.3 ;
-    /* margin-right: 30px; */
+    margin-right: 30px;
 }
 
 .pagination-item a:hover,
