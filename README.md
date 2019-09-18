@@ -2,7 +2,7 @@
 
 ---
 
-[Просмотр приложения](https://superb-office.surge.sh)
+[Просмотр приложения](https://aggressive-curve.surge.sh)
 
 ---
 
