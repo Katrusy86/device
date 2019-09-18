@@ -497,7 +497,7 @@ button.button-link {
 }
 
 .slide-button {
-    margin-top: 55px;
+    margin-top: 65px;
     margin-left: 3px;
 }
 
@@ -1485,7 +1485,7 @@ ul.breadcrumbs li {
 
 .sorting-option {
     padding-top: 11px;
-    margin-left: -200px;
+    margin-left: -230px;
 }
 
 .sorting-title {
@@ -1510,7 +1510,7 @@ ul.breadcrumbs li {
 
 .sorting-icons {
     padding-top: 25px;
-    margin-right: 314px;
+    margin-right: 385px;
 }
 
 .sorting-arrow-icon {
@@ -1530,27 +1530,39 @@ ul.breadcrumbs li {
     opacity: 1;
 }
 
+.catalog-button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 .catalog-item-list {
     list-style: none;
 }
 
 .catalog-item {
-   width: 353px;
-   min-height: 383px;
-   margin-bottom: 40px;
-   margin-right: 40px;
-}
-
-.catalog-item:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 40px;
+    margin-right: 40px;
 }
 
 .catalog-item a {
     color: #000;
 }
 
+.catalog-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
 .catalog-item-image {
-    margin: 0px;
+   width: 360px;
+   min-height: 383px;
+   position: relative;
+   display: block;
+   margin-right: 13px;
+   margin: 0;
+}
+
+.catalog-item-block {
+    display: inline-flex;
 }
 
 .catalog-item h3 {
@@ -1559,23 +1571,49 @@ ul.breadcrumbs li {
 }
 
 .catalog-item-title {
-    width: 245px;
+    width: 254px;
 }
 
 .catalog-item-price {
    font-family: 'Gilroy';
    font-size: 16px;
-   text-align: left;
+   margin-left: 34px;
+   margin-top:20px;
 }
 
 .catalog-item-list {
    display: flex;
-   flex-wrap: wrap; /*перенос элементов на новую строку*/
+   flex-wrap: wrap;
    padding: 0;
    margin: 0;
    list-style: none;
    padding-left: 70px;
    margin-top: 40px;
+}
+
+.item-image-overlay{
+	background: rgba(238,238,238,0.7);
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	text-align: center;
+	padding: 140px 0px;
+	box-sizing: border-box;
+	opacity: 0;
+	transition: all ease 1s;
+}
+
+.item-image-overlay:hover{
+	opacity: 1;
+}
+
+.item-image-overlay__link{
+	font-family: 'OpenSans-Light';
+	font-size: 13px;
+    text-align: center;
+    opacity: 0.5;
 }
 
 .pagination {
@@ -1659,6 +1697,12 @@ ul.breadcrumbs li {
 .footer-user {
     color: #fff;
 }
+
+
+
+
+
+
 
 
 
