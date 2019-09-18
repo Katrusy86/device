@@ -2,7 +2,7 @@
 
 ---
 
-[Просмотр приложения](https://aggressive-curve.surge.sh)
+[Просмотр приложения](https://http://exclusive-vegetable.surge.sh)
 
 ---
 
