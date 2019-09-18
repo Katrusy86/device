@@ -1625,6 +1625,26 @@ ul.breadcrumbs li {
     opacity: 0.2;
 }
 
+.item-label {
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    position: absolute;
+    top: 29px;
+    right: 25px;
+}
+
+.item-label-title {
+    font-size: 14px;
+    font-family: 'GilroyExtraBold';
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 7px;
+    color: #000;
+    opacity: 0.2;
+}
+
 .pagination {
     height: 70px;
     width: 750px;
