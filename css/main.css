@@ -1616,6 +1616,15 @@ ul.breadcrumbs li {
     opacity: 0.5;
 }
 
+.item-image-overlay__link:focus,
+.item-image-overlay__link:hover {
+    opacity: 1;
+}
+
+.item-image-overlay__link:active {
+    opacity: 0.2;
+}
+
 .pagination {
     height: 70px;
     width: 750px;
