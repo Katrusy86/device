@@ -2,7 +2,7 @@
 
 ---
 
-[Просмотр приложения](https://http://exclusive-vegetable.surge.sh)
+[Просмотр приложения](https://exclusive-vegetable.surge.sh)
 
 ---
 
