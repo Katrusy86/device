@@ -57,7 +57,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 1160px;
     margin: 0 auto;
 }
 
@@ -80,7 +80,6 @@ body {
 
 .row {
     margin-left: -15px;
-    margin-right: -15px;
 }
 
 
@@ -91,7 +90,7 @@ body {
 
 .header-logo {
     margin-top: -10px;
-    margin-left: 58px;
+    margin-left: 61px;
 }
 
 .header-logo-name {
@@ -103,10 +102,9 @@ body {
 } 
 
 .main-overlay {
-    width: 1160px;
-    height: 301px;
     background:#f7e296;
     margin-top: -32px;
+    height: 301px;
 }
 
 .header-logo-name:hover {
@@ -130,7 +128,7 @@ body {
     position: absolute;
     font-size: 17px;
     top: 37px;
-    left: 63px;
+    left: 61px;
     cursor: pointer;
 }
 
@@ -266,7 +264,7 @@ i.fa-plus {
 }
 
 .catalog-list { 
-    padding-left: 58px;
+    margin-left: 61px;
 }
 
 .dropdown {
@@ -279,7 +277,7 @@ i.fa-plus {
     background-color: #f7e296;
     position: absolute;
     z-index: 10;
-    margin-left: -58px;
+    margin-left: -61px;
     display: none;
 }
 
@@ -572,8 +570,8 @@ button.button-link {
 .popular-font {
     border: 1px solid #f7e296;
     background: #f7e296;
-    width: 160px;
-    height: 160px;
+    width: 164px;
+    height: 164px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -581,9 +579,8 @@ button.button-link {
 
 .popular-item {
     float: left;
-    padding-right: 25px;
-    padding-left: 15px;
     margin-top: -7px;
+    margin-left: 31px;
 }
 
 .popular-font:hover {
@@ -890,7 +887,7 @@ button.button-link {
 }
 
 .info-line {
-    margin-right: 43px;
+    margin-right: 130px;
 }
 
 /* Footer */
@@ -1294,7 +1291,7 @@ button.button-link {
     padding: 0;
     margin-bottom: 32px;
     margin-top: 44px;
-    margin-left: 55px;
+    margin-left: 61px;
 }    
 
 .breadcrumbs {
@@ -1302,7 +1299,7 @@ button.button-link {
     padding: 0;
     margin: 0;
     margin-bottom: 50px;
-    margin-left: 55px;
+    margin-left: 61px;
 }
 
 .breadcrumbs a {
@@ -1329,8 +1326,10 @@ ul.breadcrumbs li {
 }
 
 .filters {
-   width: 50%;
+   width: 269px;
+   margin-left: 61px;
    background: rgba(0, 0, 0, 0.08);
+   float: left;
 }
 
 .filter-header {
@@ -1344,12 +1343,11 @@ ul.breadcrumbs li {
     padding-top: 25px;
     padding-bottom: 25px;
     margin-bottom: 69px;
-    padding-left: 318px;
     background: rgba(0, 0, 0, 0.08);
 }
 
 .filter {
-    padding-left: 306px;
+    margin-left: -10px;
 }
 
 .filter fieldset {
@@ -1500,7 +1498,6 @@ ul.breadcrumbs li {
 
 .sorting-icons {
     padding-top: 25px;
-    margin-right: 385px;
 }
 
 .sorting-arrow-icon {
@@ -1523,6 +1520,12 @@ ul.breadcrumbs li {
 .catalog-button {
     margin-top: 30px;
     margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.catalog {
+    width: 830px;
+    float: left;
 }
 
 .catalog-item-list {
@@ -1531,7 +1534,7 @@ ul.breadcrumbs li {
 
 .catalog-item {
     margin-bottom: 40px;
-    margin-right: 40px;
+    margin-left: 39px;
 }
 
 .catalog-item a {
@@ -1577,7 +1580,7 @@ ul.breadcrumbs li {
    padding: 0;
    margin: 0;
    list-style: none;
-   padding-left: 70px;
+   margin-left: 31px;
    margin-top: 40px;
 }
 
@@ -1637,7 +1640,7 @@ ul.breadcrumbs li {
 
 .pagination {
     height: 70px;
-    width: 750px;
+    width: 763px;
     background:rgba(0, 0, 0, 0.08);
     margin-bottom: 80px;
     margin-left: 70px;
