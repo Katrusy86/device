@@ -615,10 +615,6 @@ button.button-link {
     display: block;
 }
 
-.service-items {
-    display: none;
-}
-
 .service-items.active {
     display: block;
 }
@@ -638,9 +634,6 @@ button.button-link {
 
 .service-button-item {
     width: 160px;
-}
-
-.service-button-item {
     margin-top: 49px;
 }
 
@@ -650,7 +643,12 @@ button.button-link {
     position: relative;
     display: block;
     text-align: center;
+    font-size: 18px;
+    font-family: 'GilroyExtraBold'; 
+    margin-top: -5px;
+    letter-spacing: 0.2em;
     cursor: pointer;
+    
 }
   
 .service-button-link:before {
@@ -682,15 +680,6 @@ button.button-link {
     color: #f7e184;
 }
 
-.service-button-link {
-    position: relative;
-    font-size: 18px;
-    font-family: 'GilroyExtraBold'; 
-    margin-top: -5px;
-    letter-spacing: 0.2em;
-    color: #000;
-}
-
 .service-header:after {
     content: "";
     position: absolute;
@@ -708,6 +697,7 @@ button.button-link {
 .service-items {
     float: left;
     margin-top: -70px;
+    display: none;
 }
 
 .delivery {
@@ -851,7 +841,7 @@ button.button-link {
     margin-top: 3px;
 }
 
-.info-text:nth-chlist) {
+.info-text:nth-child() {
     margin-top: 35px;
     margin-left: -3px;
 }
