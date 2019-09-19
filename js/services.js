@@ -10,7 +10,7 @@
     }
 
     function updateButtons(nextIndex) {
-        var serviceButton = document.querySelectorAll('.service-button-item .service-button-link');
+        var serviceButton = document.querySelectorAll('.service-button-item');
 
         serviceButton[prevIndex].classList.remove('active'); // скрыть
         serviceButton[nextIndex].classList.add('active'); // показать
