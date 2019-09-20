@@ -924,7 +924,6 @@ button.button-link {
 .footer-user-menu {
     list-style: none;
     display: inline-flex;
-    margin-right: 44px;
 }
 
 .footer-user-menu li {
@@ -984,10 +983,6 @@ button.button-link {
     list-style: none;
 }
 
-.footer-side-menu-block {
-    margin-right: 33px;
-}
-
 .footer-side-menu li {
     margin: 0;
     padding: 0;
@@ -1010,10 +1005,6 @@ button.button-link {
     color: #fff;
 }
 
-.footer-phone-block {
-    margin-right: 44px;
-}
-
 .footer-social {
     padding-top: 78px;
     display: flex;
@@ -1031,7 +1022,6 @@ button.button-link {
 
 .social-buttons {
     margin-top: -14px;
-    margin-left: -96px;
     list-style: none;
 }
 
@@ -1061,7 +1051,6 @@ button.button-link {
 
 .copyright {
     margin-top: -16px;
-    margin-right: 41px;
     cursor: pointer;
     transition: all 0.5s ease;
 }
@@ -1325,10 +1314,26 @@ ul.breadcrumbs li {
     padding: 1px 8px;
 }
 
+.background-row {
+    height: 70px;
+    background: rgba(0, 0, 0, 0.08);
+    margin-top: 25px;
+}
+
+.background-column {
+    width: 704px;
+    height: 1288px;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.catalog-column {
+   display: flex;
+   margin-top: -70px;
+}
+
 .filters {
    width: 269px;
    margin-left: 61px;
-   background: rgba(0, 0, 0, 0.08);
    float: left;
 }
 
@@ -1337,13 +1342,11 @@ ul.breadcrumbs li {
     font-size: 16px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    border-bottom: 2px solid #000;
     margin: 0;
     padding: 0;
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-bottom: 69px;
-    background: rgba(0, 0, 0, 0.08);
+    margin-bottom: 70px;
 }
 
 .filter {
@@ -1441,13 +1444,8 @@ ul.breadcrumbs li {
     opacity: 0.25;
 }
 
-.catalog-column {
-   display: flex;
-}
-
 .sorting {
     height: 70px;
-    background:rgba(0, 0, 0, 0.08);
     display: flex;
     justify-content: space-between;
 }
@@ -1581,7 +1579,7 @@ ul.breadcrumbs li {
    margin: 0;
    list-style: none;
    margin-left: 31px;
-   margin-top: 40px;
+   margin-top: 70px;
 }
 
 .item-image-overlay{
@@ -1642,7 +1640,7 @@ ul.breadcrumbs li {
     height: 70px;
     width: 763px;
     background:rgba(0, 0, 0, 0.08);
-    margin-bottom: 80px;
+    margin-bottom: 79px;
     margin-left: 70px;
 }
 
