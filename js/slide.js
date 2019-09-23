@@ -3,21 +3,21 @@
     var prevIndex = 0;
 
     function updateSlide(nextIndex) {
-        var slides = document.querySelectorAll('.slide-container .slide-item');
+        var slides = document.querySelectorAll('.slider-container .slider-item');
 
         slides[prevIndex].classList.remove('active'); // скрыть
         slides[nextIndex].classList.add('active'); // показать
     }
 
     function updatePagination(nextIndex) {
-        var bullets = document.querySelectorAll('.slides-pagination .slide-radio');
+        var bullets = document.querySelectorAll('.sliders-pagination .slider-radio');
 
         bullets[prevIndex].classList.remove('active'); // скрыть
         bullets[nextIndex].classList.add('active'); // показать
     }
 
 
-    var sliderBullets = document.querySelectorAll('.slide-radio');
+    var sliderBullets = document.querySelectorAll('.slider-radio');
 
     sliderBullets.forEach((item, index) => {
 
