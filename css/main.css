@@ -522,7 +522,7 @@ button.button-link {
 
 /* Slider-radio button */
 
-.slides-pagination {
+.sliders-pagination {
     position: absolute;
     margin: 0;
     padding: 0;
@@ -531,7 +531,7 @@ button.button-link {
     bottom: 245px;
 }
 
-.slides-switches li {
+.sliders-switches li {
     margin: 0px;
     padding: 0px;
 }
