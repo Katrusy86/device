@@ -1447,11 +1447,11 @@ ul.breadcrumbs li {
     background: #91c92f;
 }
 
-input[type=checkbox] {
+.filter-checkbox {
     opacity: 0;
 }
 
-input[type=checkbox] + label {
+.filter-checkbox + label {
     margin: 0 0 0 20px;
     position: relative;
     cursor: pointer;
@@ -1459,11 +1459,11 @@ input[type=checkbox] + label {
     font-family: 'OpenSans-Light';
 }
 
-input[type=checkbox] + label ~ label {
+.filter-checkbox + label ~ label {
     margin: 0 0 0 40px;
 }
 
-input[type=checkbox] + label::before {
+.filter-checkbox + label::before {
     content: ' ';
     position: absolute;
     left: -35px;
@@ -1474,7 +1474,7 @@ input[type=checkbox] + label::before {
     border: 2px solid #000;
 }
 
-input[type=checkbox] + label::after {
+.filter-checkbox + label::after {
     content: ' ';
     position: absolute;
     left: -35px;
@@ -1493,18 +1493,18 @@ input[type=checkbox] + label::after {
     opacity: 0;
 }
 
-input[type=checkbox]:checked + label::after {
+.filter-checkbox:checked + label::after {
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1);
     opacity: 1;
 }
 
-input[type=radio] {
+.filter-radio {
     opacity: 0;
 }
 
-input[type=radio] + label {
+.filter-radio + label {
     margin: 0 0 0 20px;
     position: relative;
     cursor: pointer;
@@ -1512,11 +1512,11 @@ input[type=radio] + label {
     font-family: 'OpenSans-Light';
 }
 
-input[type=radio] + label ~ label {
+.filter-radio + label ~ label {
     margin: 0 0 0 40px;
 }
 
-input[type=radio] + label::before {
+.filter-radio + label::before {
     content: ' ';
     position: absolute;
     left: -35px;
@@ -1528,7 +1528,7 @@ input[type=radio] + label::before {
     border: 3px solid #000;
 }
 
-input[type=radio] + label::after {
+.filter-radio + label::after {
     content: ' ';
     position: absolute;
     left: -27px;
@@ -1548,7 +1548,7 @@ input[type=radio] + label::after {
     transform: scale(0);
 }
 
-input[type=radio]:checked + label::after {
+.filter-radio:checked + label::after {
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1);
