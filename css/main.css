@@ -1555,14 +1555,14 @@ ul.breadcrumbs li {
     opacity: 1;
 }
 
-.sorting {
+.sort {
     height: 70px;
     display: flex;
     justify-content: space-between;
     position: relative;
 }
 
-.sorting:after {
+.sort:after {
     content: '';
     position: absolute;
     top: 0;
@@ -1572,7 +1572,7 @@ ul.breadcrumbs li {
     background: rgba(0, 0, 0, 0.08);
 }
 
-.sorting-header {
+.sort-header {
     font-family: 'GilroyExtraBold';
     font-size: 16px;
     letter-spacing: 0.2em;
@@ -1584,7 +1584,7 @@ ul.breadcrumbs li {
     position: relative; 
 }
 
-.sorting-option li {
+.sort-option li {
     display: inline;
     list-style: none;
     margin: 0;
@@ -1592,49 +1592,49 @@ ul.breadcrumbs li {
     padding-left: 27px;
 }
 
-.sorting-option {
+.sort-option {
     padding-top: 11px;
     margin-left: -230px;
 }
 
-.sorting-title {
+.sort-title {
     color: #000;
     font-size: 14px;
     font-family: 'OpenSans-Regular';
     opacity: 0.3;
 }
 
-.sorting-title:focus,
-.sorting-title:hover {
+.sort-title:focus,
+.sort-title:hover {
     opacity: 0.6;
 }
 
-.sorting-title-current {
+.sort-title-current {
     opacity: 1;
 }
 
-.sorting-title:active {
+.sort-title:active {
     opacity: 1;
 }
 
-.sorting-icons {
+.sort-icons {
     padding-top: 25px;
 }
 
-.sorting-arrow-icon {
+.sort-arrow-icon {
     margin-left: 13px;
     opacity: 0.2;
 }
 
-.sorting-arrow-icon:hover {
+.sort-arrow-icon:hover {
     opacity: 0.4;
 }
 
-.sorting-arrow-icon:active {
+.sort-arrow-icon:active {
     opacity: 1;
 }
 
-.sorting-arrow-icon__current {
+.sort-arrow-icon__current {
     opacity: 1;
 }
 
