@@ -1712,7 +1712,7 @@ ul.breadcrumbs li {
 	padding: 140px 0px;
 	box-sizing: border-box;
 	opacity: 0;
-	transition: all ease 1s;
+	transition: all ease 0.25s;
 }
 
 .item-image-overlay:hover {
@@ -1778,34 +1778,21 @@ ul.breadcrumbs li {
    display: inline-flex; 
 }
 
-.pagination-slider-item {
+.pagination-slider a {
     font-size: 16px;
     font-family: 'GilroyExtraBold';
     text-transform: uppercase;
     color: #000;
     letter-spacing: 0.2em;
-    text-align: center;
-    position: relative;
-    cursor: pointer;
+    margin-left: -30px;
+    margin-right: -30px;
+    padding: 24px 30px 27px;
+
 }
 
-.pagination-slider-item:before {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: -30px;
-}
-
-.pagination-slider-item:hover:before {
-    height: 70px;
-    width: 136px;
-    background:rgba(0, 0, 0, 0.08);
-    margin-top: -22px;
-}
-
-.pagination-slider-title {
-    position: relative;
-    z-index: 1;
+.pagination-slider a:hover {
+    background: rgba(0, 0, 0, 0.08);
+    text-decoration: none;
 }
 
 .pagination-slider-title:active {
