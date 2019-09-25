@@ -809,7 +809,7 @@ button.button-link {
 }    
 }
 
-/* Information section */
+/* Information section  */
 
 .index-column {
     display: flex;
@@ -1399,6 +1399,7 @@ ul.breadcrumbs li {
 
 .widget__progress-bar {
     margin-top: 25px;
+    position: relative;
 }
 
 .widget__progress-bar-progress {
@@ -1406,10 +1407,6 @@ ul.breadcrumbs li {
     background: #dbdbdb;
     width: 170px;
     margin-bottom: 30px;
-}
-
-.widget__progress-bar {
-    position: relative;
 }
 
 .widget__progress-bar-control {
@@ -1826,11 +1823,6 @@ ul.breadcrumbs li {
 .footer-user {
     color: #fff;
 }
-
-
-
-
-
 
 
 
