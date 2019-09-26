@@ -47,7 +47,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "GilroyExtraBold";
 }
 
-/*General page*/
+/*************************** 
+            General        
+****************************/
 
 body {
 	font-family: 'Gilroy', sans-serif;
@@ -82,8 +84,9 @@ body {
     margin-left: -15px;
 }
 
-
-/* Header */
+/*************************** 
+        Main-header        
+****************************/
 .main-header {
     margin-top: 20px;
 }
@@ -117,7 +120,10 @@ body {
     color: #000;
 }
 
-/* Search */
+/*************************** 
+        Search-box        
+****************************/
+
 .navigation {
     justify-content: space-between;
     display: flex;
@@ -230,7 +236,9 @@ body {
     padding-right: 10px;
 }
 
-/* Pop-up list */
+/*************************** 
+       Pop-up list         
+****************************/
 
 .catalog-menu {
     font-size: 18px;
@@ -360,7 +368,9 @@ i.fa-plus {
     margin-top: 64px;
 }
 
-/* Slider */
+/*************************** 
+            Slider         
+****************************/
 
 .slider-wrapper {
     display: flex;
@@ -520,7 +530,9 @@ button.button-link {
     font-family: 'OpenSans-Light'; 
 }
 
-/* Slider-radio button */
+/*************************** 
+Radio-buttons for slider       
+****************************/
 
 .sliders-pagination {
     position: absolute;
@@ -565,7 +577,9 @@ button.button-link {
     position: relative;
 }
 
-/* Popular items */
+/*************************** 
+        Popular items      
+****************************/
 
 .popular-font {
     border: 1px solid #f7e296;
@@ -600,7 +614,9 @@ button.button-link {
     width: 160px;   
 }
 
-/* Services */
+/*************************** 
+        Services     
+****************************/
 
 .services {
     height: 287px;
@@ -721,7 +737,9 @@ button.button-link {
     margin-top: -173px;
 }
 
-/* Company Brands */
+/*************************** 
+         Brands      
+****************************/
 
 .brands {
     margin-top: 94px;
@@ -806,10 +824,12 @@ button.button-link {
 .brands-04:hover {
     background: url(../img/logo-4IE.png);
     opacity: 1;
-}    
 }
+}    
 
-/* Information section  */
+/*************************** 
+         About Us      
+****************************/
 
 .index-column {
     display: flex;
@@ -890,7 +910,9 @@ button.button-link {
     margin-right: 130px;
 }
 
-/* Footer */
+/*************************** 
+         Footer      
+****************************/
 
 .footer {
     background: #464646;
@@ -1064,7 +1086,9 @@ button.button-link {
     opacity: 0.3;
 }
 
-/* Pop-up form */
+/*************************** 
+        Pop-up for form      
+****************************/
 
 .modal {
     display: none;
@@ -1210,7 +1234,9 @@ button.button-link {
     background:rgba(237, 181, 181, 0.5);
 }
 
-/* Pop-up map */
+/*************************** 
+        Pop-up for map     
+****************************/
 
 .modal-map {
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.2);
@@ -1245,7 +1271,10 @@ button.button-link {
     height: 222px;
 }
 
-/* Index-catalog page*/
+
+/*************************** 
+        Catalog page   
+****************************/
 
 .user-menu-name {
     margin-right: 10px;
@@ -1271,7 +1300,10 @@ button.button-link {
     margin-left: 30px;
 }
 
-/* Product cards */
+/*************************** 
+         Breadcrumbs      
+****************************/
+
 .page-title {
     font-size: 47px;
     font-family: 'GilroyExtraBold';
@@ -1313,6 +1345,10 @@ ul.breadcrumbs li {
 .arrow-icon {
     padding: 1px 8px;
 }
+
+/*************************** 
+        Filter section     
+****************************/
 
 .catalog-column {
    display: flex;
@@ -1376,13 +1412,8 @@ ul.breadcrumbs li {
     font-family: 'GilroyExtraBold';
     border-top: 2px solid #000;
     padding-top: 15px;
+    margin-bottom: 25px;
     width: 200px;
-}
-
-.filter-slider {
-    width: 200px;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .filter ul {
@@ -1390,38 +1421,35 @@ ul.breadcrumbs li {
     line-height: 18px;
     padding: 0px;
     margin: 0;
-    margin-top: 30px;
 }
 
 .filter-option {
     margin-bottom: 18px;
 }
 
-.widget__progress-bar {
-    margin-top: 25px;
-    position: relative;
-}
-
-.widget__progress-bar-progress {
-    height: 3px;
-    background: #dbdbdb;
-    width: 170px;
-    margin-bottom: 30px;
-}
-
-.widget__progress-bar-control {
+/*************************** 
+        Slider-range
+*****************************/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default, 
+.ui-button, 
+html .ui-button.ui-state-disabled:hover, 
+html .ui-button.ui-state-disabled:active {
     cursor: pointer;
     width: 20px;
     height: 20px;
     position: absolute;
     left: 0;
-    margin-top: -10px;
+    margin-top: -5px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
     border-radius: 50%;
     background: #ffffff;
+    border: none; 
+    outline: none;  
 }
 
-.widget__progress-bar-control:before {
+.ui-state-default::before {
     content: '';
     width: 4px;
     height: 4px;
@@ -1433,15 +1461,42 @@ ul.breadcrumbs li {
     left: 50%;
     margin-left: -2px;
     margin-top: -2px;
-}
+} 
 
-.widget__progress-bar-number span {
-    display: inline;
-}
-
-.widget__progress-bar-active-bar {
+.ui-widget-header {
     height: 50%;
-    background: #91c92f;
+    background: #91c92f;    
+}
+
+.ui-widget.ui-widget-content {
+    border: none;
+    border-radius: 0;
+    height: 3px;
+    background: #dbdbdb;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+#options {
+    margin-top: -15px;
+    margin-bottom: 14px;
+    margin-left: -7px;
+}
+
+.price-option {
+    color: #bfbfbf;
+}
+
+#price, #price2 {
+    border:none; 
+    color:#000; 
+    opacity: 0.2;
+    font-weight:bold; 
+    background: border-box;
+    width: 65px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Gilroy';   
 }
 
 .filter-checkbox {
@@ -1553,6 +1608,10 @@ ul.breadcrumbs li {
     opacity: 1;
 }
 
+/*************************** 
+         Sorting     
+****************************/
+
 .sort {
     height: 70px;
     display: flex;
@@ -1648,8 +1707,11 @@ ul.breadcrumbs li {
     margin-left: 10px;
 }
 
+/*************************** 
+        Catalog items     
+****************************/
 .catalog {
-    width: 830px;
+    width: 830px;   
     float: left;
 }
 
@@ -1759,6 +1821,10 @@ ul.breadcrumbs li {
     opacity: 0.2;
 }
 
+/*************************** 
+         Pagination      
+****************************/
+
 .pagination {
     height: 70px;
     width: 763px;
@@ -1796,7 +1862,6 @@ ul.breadcrumbs li {
     margin-left: -30px;
     margin-right: -30px;
     padding: 23px 30px 27px;
-
 }
 
 .pagination-slider a:hover {
@@ -1832,7 +1897,6 @@ ul.breadcrumbs li {
 .footer-user {
     color: #fff;
 }
-
 
 
 
