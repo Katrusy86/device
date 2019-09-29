@@ -115,17 +115,19 @@
                 <h2 class="filter-header">Фильтр:</h2>
                 <form class="filter" method="get" action="https://echo.htmlacademy.ru">
                 <fieldset>
-                    <legend>Стоимость</legend>
-                        <div id="slider-range"></div>
-                        <div id="options">
-                            <label class="price-option" for="price">от
-                                <input type="text" name="price" readonly id="price">
-                            </label>
-
-                            <label class="price-option" for="price2">до
-                                <input type="text" name="price2" readonly id="price2">
-                            </label>
-                        </div>
+                    <legend>Стоимость</legend> 
+                        <div id="slider-range">
+                            <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 0%;">
+                                <label class="price-option" for="price">от
+                                    <input type="text" name="price" readonly id="price">
+                                </label>
+                            </span>
+                            <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 36%;">
+                                <label class="price-option" for="price2">до
+                                    <input type="text" name="price2" readonly id="price2">
+                                </label>
+                            </span>
+                        </div> 
                 </fieldset>
 
                 <fieldset>
@@ -189,7 +191,7 @@
                     <div class="sort-icons">
                         <div class="sort-arrow-up"></div>
                         <div class="sort-arrow-down"></div>
-    `               </div>
+                   </div>
                 </div>
 
                 <ul class="catalog-item-list">
