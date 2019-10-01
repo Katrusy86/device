@@ -779,64 +779,6 @@ Radio-buttons for slider
     filter: grayscale(0%);
 }
 
-/* @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-.brands-01 {
-    background: url(../img/logo-1.png);
-    opacity: 0.2;
-    width: 260px;
-    height: 100px;
-    transition: 250ms ease-in;
-}
-
-.brands-01:focus,
-.brands-01:hover {
-    background: url(../img/logo-1IE.png);
-    opacity: 1;
-}
-
-.brands-02 {
-    background: url(../img/logo-2.png);
-    opacity: 0.2;
-    width: 260px;
-    height: 100px;
-    transition: 250ms ease-in;
-}
-
-.brands-02:focus,
-.brands-02:hover {
-    background: url(../img/logo-2IE.png);
-    opacity: 1;
-}
-
-.brands-03 {
-    background: url(../img/logo-3.png);
-    opacity: 0.2;
-    width: 260px;
-    height: 100px;
-    transition: 250ms ease-in;
-}
-
-.brands-03:focus,
-.brands-03:hover {
-    background: url(../img/logo-3IE.png);
-    opacity: 1;
-}
-
-.brands-04 {
-    background: url(../img/logo-4.png);
-    opacity: 0.2;
-    width: 260px;
-    height: 100px;
-    transition: 250ms ease-in;
-}
-
-.brands-04:focus,
-.brands-04:hover {
-    background: url(../img/logo-4IE.png);
-    opacity: 1;
-}
-}     */
-
 /*************************** 
          About Us      
 ****************************/
