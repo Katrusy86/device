@@ -1,0 +1,1 @@
+$('.my-grayscale').gray();

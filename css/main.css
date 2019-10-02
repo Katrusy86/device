@@ -754,19 +754,31 @@ Radio-buttons for slider
     list-style: none;
 }
 
-.brand-image {
-    margin-right: 30px;
-    width: 260px;
-    height: 100px;
-    opacity: 0.2;
+img.grayscale {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
-    transition: 250ms ease-in; 
+    filter: gray; /* IE6-9 */
+    -moz-transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease;
+    cursor:pointer;
 }
 
-.brand-image:focus,
-.brand-image:hover {
-    opacity: 1;
+img.grayscale:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
     filter: grayscale(0%);
+    filter:none;
+}
+
+.grayscale.grayscale-replaced > svg {
+    transition: opacity 250ms ease;
+    opacity: 1;
+}
+
+.grayscale.grayscale-replaced.grayscale-fade:hover > svg {
+    opacity: 0;
 }
 
 /*************************** 
