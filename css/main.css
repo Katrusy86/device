@@ -759,11 +759,6 @@ Radio-buttons for slider
     width: 260px;
     height: 100px;
     opacity: 0.2;
-    filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter     id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /*     Firefox 10+, Firefox on Android */
-    filter:gray; /* IE6-9 */
-    -webkit-filter:grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
     filter: grayscale(100%);
     transition: 250ms ease-in; 
 }
@@ -771,11 +766,6 @@ Radio-buttons for slider
 .brand-image:focus,
 .brand-image:hover {
     opacity: 1;
-    filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter     id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /*     Firefox 10+, Firefox on Android */
-    filter:gray; /* IE6-9 */
-    -webkit-filter:grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
-    -moz-filter: grayscale(0%);
-    -o-filter: grayscale(0%);
     filter: grayscale(0%);
 }
 
@@ -1432,7 +1422,13 @@ html .ui-button.ui-state-disabled:active {
 .price-option {
     color: #bfbfbf;
     display: inline-flex;
+    display: -ms-inline-grid; 
     margin-top: 23px;
+}
+
+@media all and (-ms-high-contrast:none)
+{
+*::-ms-backdrop, #price, #price2 { padding-left:15px;} /* IE11 */
 }
 
 #price, #price2 {
@@ -1444,7 +1440,7 @@ html .ui-button.ui-state-disabled:active {
     width: 65px;
     font-size: 14px;
     font-family: 'Gilroy';
-    padding-left: 7px;   
+    margin-left: 7px;   
 }
 
 .filter-checkbox {
@@ -1654,7 +1650,7 @@ html .ui-button.ui-state-disabled:active {
 
 .catalog-item {
     margin-bottom: 40px;
-    margin-left: 39px;
+    margin-left: 38px;
 }
 
 .catalog-item a {
@@ -1823,4 +1819,3 @@ html .ui-button.ui-state-disabled:active {
 .footer-user {
     color: #fff;
 }
-

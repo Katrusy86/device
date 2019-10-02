@@ -13,5 +13,5 @@ $( function() {
 
   $("#price").val($('#slider-range').slider("values",0));
   $("#price2").val($('#slider-range').slider("values",1));
-  
+   
 });
