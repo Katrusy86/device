@@ -1304,8 +1304,9 @@ ul.breadcrumbs li {
 ****************************/
 
 .catalog-column {
-   display: flex;
+   display: inline-flex;
    overflow-x: hidden;
+   overflow-y: hidden; 
 }
 
 .filters {
