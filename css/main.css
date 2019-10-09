@@ -1249,6 +1249,10 @@ img.grayscale:hover {
 /*************************** 
         Catalog page   
 ****************************/
+.container-min {
+    min-width: 1160px;
+    margin: 0 auto;
+}
 
 .user-menu-name {
     margin-right: 10px;
@@ -1325,7 +1329,7 @@ ul.breadcrumbs li {
 ****************************/
 
 .catalog-column {
-   display: flex;
+   display: flex; 
    overflow-x: hidden;
    overflow-y: hidden; 
 }
@@ -1336,6 +1340,7 @@ ul.breadcrumbs li {
    float: left;
    position: relative;
    height: 100%;
+
 }
 
 .filters:after {
