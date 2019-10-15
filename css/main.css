@@ -832,15 +832,10 @@ Radio-buttons for slider
     width: 477px;
     line-height: 1.9em;
     margin-left: -1px;
-    margin-top: 3px;
+    margin-bottom: 40px;
 }
 
-.info-text:nth-child() {
-    margin-top: 35px;
-    margin-left: -3px;
-}
-
-.info-slide {
+.info-slider {
     font-size: 16px;
     font-family: 'GilroyExtraBold'; 
     margin: 0px;
@@ -854,7 +849,7 @@ Radio-buttons for slider
 }
 
 .info-items li {
-    padding-bottom: 21px;
+    line-height: 31px;
 }
 
 .index-button {
@@ -862,7 +857,7 @@ Radio-buttons for slider
 }
 
 .info-line-button {
-    margin-top: 61px;
+    margin-top: 63px;
 }
 
 .button-width {
@@ -880,7 +875,6 @@ Radio-buttons for slider
 
 .contact-text {
     width: 515px;
-    padding-bottom: 28px;
 }
 
 .info-line {
